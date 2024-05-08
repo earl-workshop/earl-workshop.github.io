@@ -29,11 +29,11 @@ navigation = [
     { name = "About", target = "" },
     { name = "Workshop Activities", target = "audience/" },
     { name = "Call for Papers", target = "join/" },
-    { name = "Sponsors", target = "certificates/" },
     { name = "Organizers", target = "questions/" },
+    { name = "PC Members", target = "requirements/" },
+    { name = "Sponsors", target = "certificates/" },
     { name = "Contact", target = "communication/" },
     { name = "List of exercises", target = "exercises/" },
-    { name = "PC Members", target = "requirements/" },
     { name = "Code of conduct", target = "code-of-conduct/" },
 ]
 
