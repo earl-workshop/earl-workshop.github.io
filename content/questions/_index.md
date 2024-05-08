@@ -1,6 +1,10 @@
 +++
-title = "PC Members"
+title = "Organizers"
 +++
 
-## PC Members
+## Organizers
+**Dr. Irene Li**
+**Dr. Ruihai Dong**
+**Dr. Lei Li**
+**Prof. Li Chen**
 
