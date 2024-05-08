@@ -1,41 +1,26 @@
 +++
-title = "CFPs"
+title = "Workshop Activities"
 +++
 
 
-## Related Topics:
+## Invited Talks:
 
-The EARL Workshop on Evaluating and Applying Recommendation Systems with Large Language Models invites contributions that utilize LLMs to enhance and innovate within the realm of recommendation systems. We welcome submissions on a variety of topics, not limited to but including:
+The EARL workshop proudly presents a series of 2-3 invited talks by esteemed leaders from both industry and academia, who will provide in-depth insights into the latest developments in the integration of large language models with recommendation systems. In addition, our workshop will showcase 8-10 paper highlight talks, offering a platform for selected contributors to present their innovative and forward-thinking research that aligns with our theme, ensuring these sessions are both informative and impact.
 
-1.Recommendation Models based on LLM
-2.Evaluation of LLM-based Recommendation
-3.Bias and Fairness of LLM-based Recommendation
-4.Conversational Recommendation with LLM
-5.Explainable and Interpretable LLM for Recommendation
-6.Real-world Application of LLM-based Recommendation
-7.Multimodal Recommendation with LLM
-8.Efficient LLM for Recommendation
-9.Personalized Generation with LLM
-10.LLM-based Agents for Recommendation
-11.Controllable LLM for Recommendation
-12.Privacy-aware LLM for Recommendation
-13.Cross-domain and Cross-platform Recommendations with LLM
-14.Multilingual and Cross-Lingual Recommendation with LLM
-15.LLM-based User Interface for Recommendation
+
+## Coffee Break:
+
+A central feature of the EARL workshop is the interactive poster session, coupled with a coffee break. This session is not merely an opportunity to delve into specific research topics, but also a perfect setting for attendees to network and engage in meaningful discussions, fostering a collaborative environment. 
 
 
 
+## Thought-provoking panel discussion:
 
-## Paper Submission Format:
+Moreover, the workshop includes a thought-provoking panel discussion, bringing together a diverse group of experts from both the industry and academic realms. This discussion aims to address the current challenges and future potential of recommendation systems enhanced by large language models, facilitating a rich exchange of ideas and perspectives from different sectors of the field.
 
-We are planning to have the same format as the RecSys main conference (Tentative). More information and the submission link will be released soon! 
+## Q&A:
+
+In an effort to make the panel discussion more interactive and tailored to our audience's interests, we will be collecting questions from participants upon workshop registration. These pre-selected questions will then be posed to our panelists, ensuring that the session is not only engaging but also reflective of the attendees' curiosities and concerns. This approach is designed to create a dynamic and participatory atmosphere, encouraging lively and informed dialogue among all participants.
 
 
-
-## Important Dates:
-
-1.Paper submission deadline: August 2nd, 2024
-2.Reviewer deadline: August 21st, 2024
-3.Author notification: August 27th, 2024
-4.Camera-ready version deadline: September 10th, 2024
 
