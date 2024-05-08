@@ -28,11 +28,11 @@ external_links_target_blank = true
 navigation = [
     { name = "About", target = "" },
     { name = "List of exercises", target = "exercises/" },
-    { name = "CFPs", target = "audience/" },
+    { name = "Workshop Activities", target = "audience/" },
     { name = "Sponsors", target = "certificates/" },
-    { name = "How to join", target = "join/" },
+    { name = "Call for Papers", target = "join/" },
     { name = "Requirements", target = "requirements/" },
-    { name = "PC Members", target = "questions/" },
+    { name = "Organizers", target = "questions/" },
     { name = "Code of conduct", target = "code-of-conduct/" },
     { name = "Contact", target = "communication/" }
 ]
