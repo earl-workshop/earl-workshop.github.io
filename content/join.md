@@ -26,8 +26,8 @@ The EARL Workshop on Evaluating and Applying Recommendation Systems with Large L
 We are planning to have the same format as the RecSys main conference (Tentative). More information and the submission link will be released soon! 
 
 ## Important Dates (First Call， Tentative) : 
-Call for Papers starts: April 28, 2024
-Paper submission deadline: August 2nd, 2024
-Reviewer deadline: August 21st, 2024
-Author notification: August 27th, 2024
-Camera-ready version deadline: September 10th, 2024
+- Call for Papers starts: April 28, 2024
+- Paper submission deadline: August 2nd, 2024
+- Reviewer deadline: August 21st, 2024
+- Author notification: August 27th, 2024
+- Camera-ready version deadline: September 10th, 2024
