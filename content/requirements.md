@@ -28,10 +28,3 @@ title = "PC Members"
 
 
 
-
-workshop is based on what we think will be most useful for most of our
-learners. Here we try to balance between usefulness and privacy and hope we are
-doing a good job. If you are unsure about anything or do not agree with our
-choice, feel free to contact us or contribute directly to our lesson material
-to make it more inclusive while also being useful for the majority of our
-learners.
