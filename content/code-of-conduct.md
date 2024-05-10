@@ -1,8 +1,8 @@
 +++
-title = "Code of conduct"
+title = "Contact"
 +++
 
-## Code of conduct
+## Contact
 
-For our workshops and events we use the code of conduct published on our [project
-website](https://coderefinery.org/about/code-of-conduct/).
+- ireneli@ds.itc.u-tokyo.ac.jp
+- ruihai.dong@ucd.ie
