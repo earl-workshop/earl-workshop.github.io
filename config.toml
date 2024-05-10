@@ -32,7 +32,6 @@ navigation = [
     { name = "Organizers", target = "questions/" },
     { name = "PC Members", target = "requirements/" },
     { name = "Sponsors", target = "certificates/" },
-    { name = "communication", target = "communication/" },
     { name = "Contact", target = "code-of-conduct/" },
 ]
 
