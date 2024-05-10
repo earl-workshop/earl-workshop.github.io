@@ -33,7 +33,6 @@ navigation = [
     { name = "PC Members", target = "requirements/" },
     { name = "Sponsors", target = "certificates/" },
     { name = "Contact", target = "communication/" },
-    { name = "List of exercises", target = "exercises/" },
     { name = "Code of conduct", target = "code-of-conduct/" },
 ]
 
