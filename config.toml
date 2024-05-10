@@ -32,8 +32,8 @@ navigation = [
     { name = "Organizers", target = "questions/" },
     { name = "PC Members", target = "requirements/" },
     { name = "Sponsors", target = "certificates/" },
-    { name = "Contact", target = "communication/" },
-    { name = "Code of conduct", target = "code-of-conduct/" },
+    { name = "communication", target = "communication/" },
+    { name = "Contact", target = "code-of-conduct/" },
 ]
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png"
