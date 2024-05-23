@@ -1,4 +1,10 @@
 ---
 # all times must be input in UTC, be careful about daylight saving
 schedule:
-  - title: "TBA"
+  - title: "Half-Day Workshop"
+    date: "TBA"
+    sessions:
+      - starts: TBA
+        ends: TBA
+        title: TBA
+        url: https://earl-workshop.github.io/
