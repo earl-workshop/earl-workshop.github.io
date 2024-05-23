@@ -1,7 +1,4 @@
 +++
 +++
 
-### Summary of important links
-- Contact Email: ireneli@ds.itc.u-tokyo.ac.jp, ruihai.dong@ucd.ie. 
-- [Archive of past communication to participants](@/communication/_index.md) (shareable)
-- Q&A of each day is archived on [this page](@/questions/_index.md) (shareable)
+The EARL Workshop on Evaluating and Applying Recommendation Systems with Large Language Models invites contributions that utilize LLMs to enhance and innovate within the realm of recommendation systems.
