@@ -1,7 +1,7 @@
 +++
 +++
 
-### Call for paper
+### Call for papers
 
 - Important Dates (First Call, Tentative) :
   - ~~Call for Papers starts: April 28, 2024~~
