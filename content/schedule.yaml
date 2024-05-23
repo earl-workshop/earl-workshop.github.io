@@ -4,7 +4,7 @@ schedule:
   - title: "Half-Day Workshop"
     date: "TBA"
     sessions:
-      - starts: TBA
-        ends: TBA
+      - starts: 9:00
+        ends: 12:00
         title: TBA
         url: https://earl-workshop.github.io/
