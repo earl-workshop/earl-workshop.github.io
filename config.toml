@@ -5,8 +5,8 @@
 base_url = "https://earl-workshop.github.io/"
 
 # When adapting the title, do not forget to also adjust base_url above
-title = "EarlWorkshop"
-description = "The EARL Workshop on Evaluating and Applying Recommendation Systems with Large Language Models invites contributions that utilize LLMs to enhance and innovate within the realm of recommendation systems."
+title = "EARL Workshop"
+description = ""
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
