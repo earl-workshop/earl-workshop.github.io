@@ -45,7 +45,7 @@ plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "code
 # the image file(s) need to be placed in content/logos
 logos = [
 #   { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" },
-    { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" }
+    { alt_text = "EARL Workshop LOGO", target_url = "https://earl-workshop.github.io/", image = "EARL_logo.png" }
 ]
 
 # adapt this
