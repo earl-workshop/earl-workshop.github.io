@@ -4,22 +4,6 @@
 
 <h2>Schedule</h2>
 
-<div class="uk-alert-danger" uk-alert>
-  <a class="uk-alert-close" uk-close></a>
-  <p>
-    All times are displayed in the local timezone of your browser.
-    Detected timezone offset compared to UTC: {{ macros::timezone_offset(date='2023-03-20', time='09:00') }}
-  </p>
-</div>
-
-<div class="uk-alert-info" uk-alert>
-  <a class="uk-alert-close" uk-close></a>
-  <p>
-    <b>Breaks</b>: 10 minutes every hour, between xx:50 and xx:10, but it is
-    difficult for us to indicate exactly when.
-  </p>
-</div>
-
 <table class="uk-table uk-table-small uk-table-justify">
   <tbody>
     {% set data = load_data(path="content/schedule.yaml") %}
