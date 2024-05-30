@@ -49,12 +49,12 @@ logos = [
 ]
 
 # adapt this
-registration_link = "https://example.org"
+registration_link = "https://easychair.org/my/conference?conf=recsys2024workshops"
 source_repo = "https://github.com/earl-workshop/earl-workshop.github.io"
 how_to_join_video = "https://youtu.be/QUAZELOioUY"
 
 # uncomment as soon as registration opens
-# registration_is_open = true
+registration_is_open = true
 
 # uncomment as soon as registration closes
 # registration_is_closed = true
