@@ -22,8 +22,17 @@ The EARL Workshop on Evaluating and Applying Recommendation Systems with Large L
 - Multilingual and Cross-Lingual Recommendation with LLM
 - LLM-based User Interface for Recommendation
 
-## Paper submission format:  
-We are planning to have the same format as the RecSys main conference (Tentative). More information and the submission link will be released soon! 
+## Paper submission  
+- Authors are encouraged to submit contributions in one of the following formats.
+  - Long Papers: detail significant and enduring contributions (up to 10 pages, with extra pages permissible for references); 
+  - Short Papers: ideally suited for presenting new and promising work that hasn't yet reached the maturity required for a long paper (up to 5 pages, with the option to include additional pages for references). 
+  - Authors are required to submit manuscripts adhering to the ACM format: link (https://www.acm.org/publications/proceedings-template) 
+  - Submission link. (https://easychair.org/my/conference?conf=recsys2024workshops) 
+
+- This workshop is non-archival, meaning that submissions will neither be indexed nor have formal proceedings.
+  - Accepted papers will appear on the workshop website.
+  - We welcome submissions that are currently under review at other venues, provided this does not breach the dual-submission or anonymity policies of those venues.
+- The review process will be double-blind.
 
 ## Important Dates (First Call， Tentative) : 
 - Call for Papers starts: April 28, 2024
