@@ -28,11 +28,11 @@ external_links_target_blank = true
 navigation = [
     { name = "About", target = "" },
     { name = "Workshop Activities", target = "activities/" },
-    { name = "Call for Papers", target = "join/" },
-    { name = "Organizers", target = "questions/" },
-    { name = "PC Members", target = "requirements/" },
-    { name = "Sponsors", target = "certificates/" },
-    { name = "Contact", target = "code-of-conduct/" },
+    { name = "Call for Papers", target = "call-for-papers/" },
+    { name = "Organizers", target = "organizers/" },
+    { name = "PC Members", target = "pc-members/" },
+    { name = "Sponsors", target = "sponsors/" },
+    { name = "Contact", target = "contact/" },
 ]
 
 twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png"
