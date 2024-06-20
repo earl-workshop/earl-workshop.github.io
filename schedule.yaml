@@ -1,0 +1,10 @@
+---
+# all times must be input in UTC, be careful about daylight saving
+schedule:
+  - title: "Half-Day Workshop: Date TBA"
+    date: "2024-10-14"
+    sessions:
+      - starts: 9:00
+        ends: 12:00
+        title: TBA
+        url: https://earl-workshop.github.io/
