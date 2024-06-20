@@ -26,7 +26,7 @@ The EARL Workshop on Evaluating and Applying Recommendation Systems with Large L
 - Authors are encouraged to submit contributions in one of the following formats.
   - Long Papers: detail significant and enduring contributions (up to 10 pages, with extra pages permissible for references); 
   - Short Papers: ideally suited for presenting new and promising work that hasn't yet reached the maturity required for a long paper (up to 5 pages, with the option to include additional pages for references). 
-  - Authors are required to submit manuscripts adhering to the ACM format: [https://www.acm.org/publications/proceedings-template)](https://www.acm.org/publications/proceedings-template) 
+  - Authors are required to submit manuscripts adhering to the ACM format: [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template) 
   - Submission here: [https://easychair.org/my/conference?conf=recsys2024workshops](https://easychair.org/my/conference?conf=recsys2024workshops) 
 
 - This workshop is non-archival, meaning that submissions will neither be indexed nor have formal proceedings.
