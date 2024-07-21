@@ -31,7 +31,7 @@ navigation = [
     { name = "Call for Papers", target = "call-for-papers/" },
     { name = "Organizers", target = "organizers/" },
     { name = "PC Members", target = "pc-members/" },
-    { name = "Sponsors", target = "sponsors/" },
+    # { name = "SUPPORTERS", target = "sponsors/" },
     { name = "Contact", target = "contact/" },
 ]
 
