@@ -20,6 +20,7 @@ title = "PC Members"
 - Jinghui Lu (Smartor, China)
 - Zheng Ju (UCD, Ireland)
 - Bichen Shi (Huawei Ireland Research Center, Ireland)
+- Tri Kurniawan Wijaya (Huawei Ireland Research Centre, Ireland)
 - Aayush Singha Roy (UCD, Ireland)
 - Xingsheng Guo (Huawei Ireland Research Center, Ireland)
 - Michael O' Mahony (Insight Centre for Data Analytics, Ireland)
