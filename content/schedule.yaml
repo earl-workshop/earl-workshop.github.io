@@ -1,10 +1,22 @@
 ---
 # all times must be input in UTC, be careful about daylight saving
 schedule:
-  - title: "Half-Day Workshop: Date TBA"
-    date: "2024-10-14"
+  - title: "EARL is scheduled on Friday 18th Oct."
+    date: "2024-10-18"
     sessions:
-      - starts: 9:00
-        ends: 12:00
-        title: TBA
-        url: https://earl-workshop.github.io/
+      - starts: 14:00
+        ends: 14:50
+        title: Invited Talk 1
+        # url: https://earl-workshop.github.io/
+      - starts: 14:50
+        ends: 15:30
+        title: Accepted Paper Talks
+      - starts: 15:30
+        ends: 16:00
+        title: Coffee break
+      - starts: 16:00
+        ends: 16:50
+        title: Invited Talk 2
+      - starts: 16:50
+        ends: 17:30
+        title: Accepted Paper Talks
