@@ -8,19 +8,16 @@
   <tbody>
     {% set data = load_data(path="content/schedule.yaml") %}
     {% for day in data.schedule %}
-      <tr>
-        <td>
-        </td>
-        <td>
-          &nbsp;
-          <br>
-          <b>{{ day.title }}</b>
-        </td>
-      </tr>
+        <tr>
+          <td colspan="2" style="text-align: center;">
+            &nbsp;
+            <br>
+            <b>{{ day.title }}</b>
+          </td>
+        </tr>
       {% for session in day.sessions %}
         <tr>
           <td class="uk-width-2-5">
-            {{ macros::local_date(date=day.date, time=session.ends) }},
             {{ macros::local_time(date=day.date, time=session.starts) }}
             -
             {{ macros::local_time(date=day.date, time=session.ends) }}
