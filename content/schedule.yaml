@@ -1,7 +1,7 @@
 ---
 # all times must be input in UTC, be careful about daylight saving
 schedule:
-  - title: "EARL is scheduled on Friday 18th Oct."
+  - title: "EARL is scheduled on Friday 18th Oct (GMT+2)"
     date: "2024-10-18"
     sessions:
       - starts: 14:00
