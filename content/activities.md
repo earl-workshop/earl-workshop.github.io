@@ -14,15 +14,19 @@ The EARL workshop proudly presents 2 invited talks, who will provide in-depth in
 A central feature of the EARL workshop is the interactive session, coupled with a coffee break. This session is not merely an opportunity to delve into specific research topics, but also a perfect setting for attendees to network and engage in meaningful discussions, fostering a collaborative environment. 
 
 ## Accepted Papers:
-- **Leveraging LLMs to Enhance a Web-Scale Webpage Recommendation System**
-  Jaidev Shah, Iman Barjasteh, Amey Barapatre, Rana Forsati, Gang Luo, Fan Wu, Julie Fang, Xue Deng, Blake Shepard, Ronak Shah, Linjun Yang and Hongzhi Li 
-- **GenRec: Generative Sequential Recommendation with Large Language Models**
-  Panfeng Cao and Pietro Liò
 
-- **A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation**
-  Dugang Liu, Shenxian Xian, Xiaolin Lin, Xiaolian Zhang, Hong Zhu, Yuan Fang, Zhen Chen and Zhong Ming
-- **Data Imputation Using Large Language Model to Accelerate Recommender System**
-  Jiahao Tian, Jinman Zhao, Zhenkai Wang, Zhicheng Ding and Siyang Li
+- **Leveraging LLMs to Enhance a Web-Scale Webpage Recommendation System**  
+  *Jaidev Shah, Iman Barjasteh, Amey Barapatre, Rana Forsati, Gang Luo, Fan Wu, Julie Fang, Xue Deng, Blake Shepard, Ronak Shah, Linjun Yang, Hongzhi Li*
+
+- **GenRec: Generative Sequential Recommendation with Large Language Models**  
+  *Panfeng Cao, Pietro Liò*
+
+- **A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation**  
+  *Dugang Liu, Shenxian Xian, Xiaolin Lin, Xiaolian Zhang, Hong Zhu, Yuan Fang, Zhen Chen, Zhong Ming*
+
+- **Data Imputation Using Large Language Model to Accelerate Recommender System**  
+  *Jiahao Tian, Jinman Zhao, Zhenkai Wang, Zhicheng Ding, Siyang Li*
+
 
 <!-- ## Thought-provoking panel discussion:
 
