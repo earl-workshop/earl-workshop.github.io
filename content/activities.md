@@ -7,7 +7,7 @@ title = "Workshop Activities"
 
 The EARL workshop proudly presents 2 invited talks, who will provide in-depth insights into the latest developments in the integration of large language models with recommendation systems. 
 - **Prof. Scott Sanner** (_ssanner@mie.utoronto.ca_), from University of Toronto, has a broad range of topics from the data-driven fields of Machine Learning and Information Retrieval to the decision-driven fields of Artificial Intelligence and Operations Research. 
-- **Assoc. Prof. Yongfeng Zhang** (_yongfeng.zhang@rutgers.edu_), from Rutgers University, focuses on a wide range of subjects, including Machine Learning, Data Mining, Information Retrieval, Recommender Systems, and Explainable AI..  
+- **Assoc. Prof. Yongfeng Zhang** (_yongfeng.zhang@rutgers.edu_), from Rutgers University, focuses on a wide range of subjects, including Machine Learning, Data Mining, Information Retrieval, Recommender Systems, and Explainable AI. 
 
 ## Coffee Break:
 
