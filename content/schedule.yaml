@@ -6,17 +6,29 @@ schedule:
     sessions:
       - starts: 14:00
         ends: 14:50
-        title: Invited Talk 1
+        title: Invited Talk
+        presenters: Prof. Scott Sanner
         # url: https://earl-workshop.github.io/
       - starts: 14:50
+        ends: 15:10
+        title: Leveraging LLMs to Enhance a Web-Scale Webpage Recommendation System
+        presenters: Jaidev Shah, Iman Barjasteh, Amey Barapatre, Rana Forsati, Gang Luo, Fan Wu, Julie Fang, Xue Deng, Blake Shepard, Ronak Shah, Linjun Yang and Hongzhi Li. 
+      - starts: 15:10
         ends: 15:30
-        title: Accepted Paper Talks
+        title: GenRec: Generative Sequential Recommendation with Large Language Models
+        presenters: Panfeng Cao and Pietro Liò. 
       - starts: 15:30
         ends: 16:00
         title: Coffee break
       - starts: 16:00
         ends: 16:50
-        title: Invited Talk 2
+        title: Invited Talk
+        presenters: Assoc. Prof. Yongfeng Zhang
       - starts: 16:50
+        ends: 17:10
+        title: A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation
+        presenters: Dugang Liu, Shenxian Xian, Xiaolin Lin, Xiaolian Zhang, Hong Zhu, Yuan Fang, Zhen Chen and Zhong Ming. 
+      - starts: 17:10
         ends: 17:30
-        title: Accepted Paper Talks
+        title: Data Imputation Using Large Language Model to Accelerate Recommender System
+        presenters: Jiahao Tian, Jinman Zhao, Zhenkai Wang, Zhicheng Ding and Siyang Li. 
