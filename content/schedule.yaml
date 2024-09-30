@@ -6,17 +6,20 @@ schedule:
     sessions:
       - starts: 14:00
         ends: 14:50
-        title: Invited Talk
+        title: "Conversational Recommendation in the LLM Era: Opportunities and Challenges"
         presenters: Prof. Scott Sanner
+        url: /activities
         # url: https://earl-workshop.github.io/
       - starts: 14:50
         ends: 15:10
         title: Leveraging LLMs to Enhance a Web-Scale Webpage Recommendation System
         presenters: Jaidev Shah, Iman Barjasteh, Amey Barapatre, Rana Forsati, Gang Luo, Fan Wu, Julie Fang, Xue Deng, Blake Shepard, Ronak Shah, Linjun Yang and Hongzhi Li. 
+        url: /pdf/recsys2024-workshops_paper_29.pdf
       - starts: 15:10
         ends: 15:30
         title: "GenRec: Generative Sequential Recommendation with Large Language Models"
         presenters: Panfeng Cao and Pietro Liò. 
+        url: /pdf/recsys2024-workshops_paper_123.pdf
       - starts: 15:30
         ends: 16:00
         title: Coffee break
@@ -28,7 +31,9 @@ schedule:
         ends: 17:10
         title: A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation
         presenters: Dugang Liu, Shenxian Xian, Xiaolin Lin, Xiaolian Zhang, Hong Zhu, Yuan Fang, Zhen Chen and Zhong Ming. 
+        # url: /pdf/
       - starts: 17:10
         ends: 17:30
         title: Data Imputation Using Large Language Model to Accelerate Recommender System
         presenters: Jiahao Tian, Jinman Zhao, Zhenkai Wang, Zhicheng Ding and Siyang Li. 
+        url: /pdf/recsys2024-workshops_paper_48.pdf
