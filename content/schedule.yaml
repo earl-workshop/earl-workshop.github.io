@@ -32,7 +32,7 @@ schedule:
         ends: 17:10
         title: A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation
         presenters: Dugang Liu, Shenxian Xian, Xiaolin Lin, Xiaolian Zhang, Hong Zhu, Yuan Fang, Zhen Chen and Zhong Ming. 
-        # url: /pdf/
+        url: /activities
       - starts: 17:10
         ends: 17:30
         title: Data Imputation Using Large Language Model to Accelerate Recommender System
