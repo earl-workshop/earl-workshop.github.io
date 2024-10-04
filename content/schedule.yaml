@@ -27,6 +27,7 @@ schedule:
         ends: 16:50
         title: "Invited Talk: Large Language Model for Generative Recommendation"
         presenters: "Speaker: Assoc. Prof. Yongfeng Zhang, Rutgers University"
+        url: /activities
       - starts: 16:50
         ends: 17:10
         title: A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation
