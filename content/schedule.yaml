@@ -6,8 +6,8 @@ schedule:
     sessions:
       - starts: 14:00
         ends: 14:50
-        title: "Conversational Recommendation in the LLM Era: Opportunities and Challenges"
-        presenters: Prof. Scott Sanner
+        title: "Invited Talk: Conversational Recommendation in the LLM Era: Opportunities and Challenges"
+        presenters: "Speaker: Prof. Scott Sanner, University of Toronto"
         url: /activities
         # url: https://earl-workshop.github.io/
       - starts: 14:50
@@ -25,8 +25,8 @@ schedule:
         title: Coffee break
       - starts: 16:00
         ends: 16:50
-        title: Invited Talk
-        presenters: Assoc. Prof. Yongfeng Zhang
+        title: "Invited Talk: Large Language Model for Generative Recommendation"
+        presenters: "Speaker: Assoc. Prof. Yongfeng Zhang, Rutgers University"
       - starts: 16:50
         ends: 17:10
         title: A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation
