@@ -36,6 +36,11 @@
                 Presenters: {{ session.presenters | markdown(inline=true) | safe }}
               </div>
             {% endif %}
+            {% if session.speaker %}
+              <div class="uk-text-small">
+                Speaker: {{ session.presenters | markdown(inline=true) | safe }}
+              </div>
+            {% endif %}
           </td>
         </tr>
       {% endfor %}
