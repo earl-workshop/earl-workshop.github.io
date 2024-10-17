@@ -34,7 +34,7 @@ The EARL Workshop on Evaluating and Applying Recommendation Systems with Large L
   - We welcome submissions that are currently under review at other venues, provided this does not breach the dual-submission or anonymity policies of those venues.
 - The review process will be double-blind.
 
-## Important Dates (First Call， Tentative) : 
+## Important Dates: 
 - ~~Call for Papers starts: April 28th, 2024~~
 - ~~Paper submission deadline: August 30th, 2024~~
 - ~~Reviewer deadline: September 11th, 2024~~
