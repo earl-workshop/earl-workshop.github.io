@@ -35,8 +35,6 @@ navigation = [
     { name = "Contact", target = "contact/" },
 ]
 
-twitter_image = "https://raw.githubusercontent.com/coderefinery/coderefinery-artwork/main/socialshare/socialshare-workshop.png"
-
 # plausible.io analytics
 plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "coderefinery.github.io", github_ref = "refs/heads/main" }
 
@@ -44,17 +42,15 @@ plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "code
 # you can place multiple logos like this
 # the image file(s) need to be placed in content/logos
 logos = [
-#   { alt_text = "CodeRefinery logo", target_url = "https://coderefinery.org/", image = "coderefinery.png" },
     { alt_text = "EARL Workshop LOGO", target_url = "https://earl-workshop.github.io/", image = "EARL_logo.png" }
 ]
 
 # adapt this
 registration_link = "https://easychair.org/my/conference?conf=recsys2024workshops"
 source_repo = "https://github.com/earl-workshop/earl-workshop.github.io"
-how_to_join_video = "https://youtu.be/QUAZELOioUY"
 
 # uncomment as soon as registration opens
-registration_is_open = true
+registration_is_open = false
 
 # uncomment as soon as registration closes
 # registration_is_closed = true
