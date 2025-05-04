@@ -53,4 +53,4 @@ source_repo = "https://github.com/earl-workshop/earl-workshop.github.io"
 registration_is_open = false
 
 # uncomment as soon as registration closes
-# registration_is_closed = true
+ registration_is_closed = false

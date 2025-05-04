@@ -4,8 +4,8 @@
 ### Call for papers
 
 - Important Dates:
-  - ~~Call for Papers starts: April 28th, 2024~~
-  - ~~Paper submission deadline: August 30th, 2024~~
-  - ~~Reviewer deadline: September 11th, 2024~~
-  - ~~Author notification: September 13th, 2024~~
-  - ~~Camera-ready version deadline: September 20th, 2024~~
+  - Call for Papers starts: Apr 28, 2025
+  - Paper submission deadline: Aug 30, 2025
+  - Reviewer deadline: Sep 11, 2025
+  - Author notification: Sep 13, 2025
+  - Camera-ready version deadline: Sep 20, 2025

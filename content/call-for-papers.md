@@ -4,23 +4,29 @@ title = "Call for Papers"
 
 ## Related Topics:
 
-The EARL Workshop on Evaluating and Applying Recommendation Systems with Large Language Models invites contributions that utilize LLMs to enhance and innovate within the realm of recommendation systems. We welcome submissions on a variety of topics, not limited to but including:
+The EARL Workshop welcomes submissions on (1) emerging techniques for LLM-based RSs (including retrieval-augmented generation, multi-modal recommendation, reinforcement learning with human feedback, scalable fine-tuning methods, dynamic prompting strategies, and personalized conversational agents), (2) real-world applications of existing LLMs, and (3) critical challenges in ensuring the trustworthiness and responsibility of LLM-driven RSs.
 
-- Recommendation Models based on LLM
-- Evaluation of LLM-based Recommendation
-- Bias and Fairness of LLM-based Recommendation
-- Conversational Recommendation with LLM
-- Explainable and Interpretable LLM for Recommendation
-- Real-world Application of LLM-based Recommendation
-- Multimodal Recommendation with LLM
-- Efficient LLM for Recommendation
-- Personalized Generation with LLM
-- LLM-based Agents for Recommendation
-- Controllable LLM for Recommendation
-- Privacy-aware LLM for Recommendation
-- Cross-domain and Cross-platform Recommendations with LLM
-- Multilingual and Cross-Lingual Recommendation with LLM
-- LLM-based User Interface for Recommendation
+In detail, topics of interest include, but are not limited to, the following:
+- Integrating LLMs to enhance RSs.
+- Leveraging LLM-generated data to improve traditional RSs.
+- LLM fine-tuning or prompt engineering techniques for RSs.
+- Developing interactive and conversational RSs with LLMs.
+- Integration of reinforcement learning with LLMs to adapt recommendations based on user feedback.
+- Leveraging retrieval-augmented generation (RAG) to improve relevance and diversity in recommendations.
+- Multi-modal RSs powered by LLMs, e.g., techniques integrating text, images, and audio data.
+- Few-shot and zero-shot learning for LLM-based RSs.
+- Personalization strategies for LLM-powered RSs, including dynamic user modeling and real-time adaptation.
+- Cross-domain and cross-lingual RSs utilizing multilingual and generalist LLMs.
+- Applications of LLM-enhanced RSs in domains such as finance, streaming platforms, and social networks.
+- Scalability challenges in deploying LLM-powered RSs.
+- Efficiency challenges in deploying LLM-powered RSs.
+- Evaluation of LLM-powered RSs using novel metrics/standards.
+- Evaluation of LLM-powered RSs using human feedback.
+- Enhancing transparency in LLM-powered RSs.
+- Enhancing fairness in LLM-powered RSs.
+- Enhancing explainability in LLM-powered RSs.
+- Trustworthy recommendation with LLMs, addressing bias, safety, privacy, and authenticity issues.
+- Responsible AI practices in LLM-powered RSs, emphasizing ethical considerations and sustainable AI.
 
 ## Paper submission  
 - Authors are encouraged to submit contributions in one of the following formats.
@@ -35,8 +41,8 @@ The EARL Workshop on Evaluating and Applying Recommendation Systems with Large L
 - The review process will be double-blind.
 
 ## Important Dates: 
-- ~~Call for Papers starts: April 28th, 2024~~
-- ~~Paper submission deadline: August 30th, 2024~~
-- ~~Reviewer deadline: September 11th, 2024~~
-- ~~Author notification: September 13th, 2024~~
-- ~~Camera-ready version deadline: September 20th, 2024~~
+- Call for Papers starts: Apr 28, 2025
+- Paper submission deadline: Aug 30, 2025
+- Reviewer deadline: Sep 11, 2025
+- Author notification: Sep 13, 2025
+- Camera-ready version deadline: Sep 20, 2025
