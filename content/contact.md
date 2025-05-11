@@ -4,5 +4,5 @@ title = "Contact"
 
 ## Contact
 
-- ireneli@ds.itc.u-tokyo.ac.jp
+- irene.li@weblab.t.u-tokyo.ac.jp
 - ruihai.dong@ucd.ie
