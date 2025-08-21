@@ -1,0 +1,40 @@
+---
+# all times must be input in UTC, be careful about daylight saving
+schedule:
+  - title: "EARL is scheduled on September 26 (GMT+2), at Prague, Czech Republic"
+    date: "2025-09-26"
+    sessions:
+      - starts: 13:30
+        ends: 14:10
+        title: "Invited Talk 1"
+#        speaker: "Prof. Scott Sanner, University of Toronto"
+#        url: 
+        # url: https://earl-workshop.github.io/
+      - starts: 14:10
+        ends: 15:30
+        title: "Paper Presentations"
+#        presenters:
+#        url:
+#      - starts: 15:10
+#        ends: 15:30
+#        title: ""
+#        presenters:
+#        url:
+      - starts: 15:30
+        ends: 16:00
+        title: Coffee break
+      - starts: 16:00
+        ends: 16:40
+        title: "Invited Talk 2"
+#        speaker:
+#        url:
+      - starts: 16:40
+        ends: 17:30
+        title: "Paper Presentations"
+#        presenters:
+#        url:
+#      - starts: 17:10
+#        ends: 17:30
+#        title:
+#        presenters:
+#        url:
