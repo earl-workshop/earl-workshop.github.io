@@ -46,5 +46,5 @@ In detail, topics of interest include, but are not limited to, the following:
 - ~~Second Round paper submission deadline: August 7, 2025 (RecSys Official Suggested)~~
 - ~~Reviewer deadline: August 21, 2025~~
 - ~~Author notification: August 25, 2025~~
-- Camera-ready version deadline: September 4, 2025
+- ~~Camera-ready version deadline: September 4, 2025~~
 

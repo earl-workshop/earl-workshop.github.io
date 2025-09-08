@@ -5,16 +5,28 @@ schedule:
     date: "2025-09-26"
     sessions:
       - starts: 13:30
-        ends: 14:10
-        title: "Invited Talk 1"
-#        speaker: "Prof. Scott Sanner, University of Toronto"
-#        url: 
+        ends: 13:40
+        title: "Welcome note - Award Announcement"
+      - starts: 13:40
+        ends: 14:30
+        title: "Invited Talk: LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment"
+        speaker: "Wei-Wei Du (Sony Group Corporation), Tommaso Carraro (Sony Research India)"
         # url: https://earl-workshop.github.io/
-      - starts: 14:10
+      - starts: 14:30
+        ends: 14:50
+        title: "AudioBoost: Increasing Audiobook Retrievability in Spotify Search with Synthetic Query Generation"
+        presenters: "Enrico Palumbo, Gustavo Penha, Alva Liu, Marcus Eltscheminov, Jefferson Carvalho dos Santos, Alice Wang, Hugues Bouchard, Humberto Corona and Michelle Tran Luu"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_7.pdf
+      - starts: 14:50
+        ends: 15:10
+        title: "A Metric for MLLM Alignment in Large-scale Recommendation"
+        presenters: "Yubin Zhang, Yanhua Huang, Haiming Xu, Mingliang Qi, Chang Wang, Jiarui Jin, Xiangyuan Ren, Xiaodan Wang and Ruiwen Xu"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_120.pdf
+      - starts: 15:10
         ends: 15:30
-        title: "Paper Presentations"
-#        presenters:
-#        url:
+        title: "ScientiaRec: a Scientific Article Recommendation System with LLM-Driven Feature Extraction"
+        presenters: "Imen Ben Sassi"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_143.pdf
 #      - starts: 15:10
 #        ends: 15:30
 #        title: ""
@@ -25,12 +37,24 @@ schedule:
         title: Coffee break
       - starts: 16:00
         ends: 16:40
-        title: "Invited Talk 2"
-#        speaker:
+        title: "Invited Talk: Agentic Marketplace: The next era of recommendation system"
+        speaker: "Wenyue Hua (Microsoft Research)"
 #        url:
       - starts: 16:40
-        ends: 17:30
-        title: "Paper Presentations"
+        ends: 17:00
+        title: "LLM-as-Judge: Rapid Evaluation of Legal Document Recommendation via Retrieval-Augmented Generation"
+        presenters: "Anu Pradhan, Alexandra Ortan, Apurv Verma and Madhavan Seshadri"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_4.pdf
+      - starts: 17:00
+        ends: 17:20
+        title: "LLM-based Relevance Assessment for Web-Scale Search Evaluation at Pinterest"
+        presenters: "Han Wang, Alex Whitworth, Pak Ming Cheung, Zhenjie Zhang and Krishna Kamath"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_142.pdf
+      - starts: 17:20
+        ends: 17:40
+        title: "Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting"
+        presenters: "Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf
 #        presenters:
 #        url:
 #      - starts: 17:10
