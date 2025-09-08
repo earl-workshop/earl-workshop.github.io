@@ -7,7 +7,6 @@ title = "Workshop Activities"
 To further enhance participant engagement, EARL 2025 will introduce:
 
 - **Best Paper Award:** This award will recognize originality, technical rigor, and impact in LLM-based recommendation research. The selection will combine reviewer evaluations and organizer deliberation.
-- **Interactive Panel Discussion:** A dynamic panel of experts will address pressing issues in the field. Audience members will be invited to submit questions in advance and engage in real-time discussions during the session, fostering rich dialogue between academia and industry.
 
 ## Invited Talks
 
@@ -41,6 +40,7 @@ The EARL workshop proudly presents 2 invited talks, who will provide in-depth in
 - **[Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf)**  
    *Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang*
 
+[//]: # (Miss PDF: 3)
 ### Poster Presentations
 - **[SemSR: Semantics aware robust Session-based Recommendations](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_23.pdf)**  
    *Jyoti Narwariya, Priyanka Gupta, Muskan Gupta, Jyotsana Khatri and Lovekesh Vig*
