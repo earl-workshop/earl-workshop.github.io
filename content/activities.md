@@ -2,13 +2,6 @@
 title = "Workshop Activities"
 +++
 
-## Workshop Activities
-
-The EARL Workshop will build on the successful structure of its first edition, combining expert insights with interactive academic discourse. The core program will feature:
-
-- **Invited Talks:** 2–3 leading researchers and practitioners from academia and industry will present the latest advances at the intersection of large language models (LLMs) and recommender systems (RSs), discussing emerging challenges and future directions.
-- **Accepted Contribution Talks:** Selected authors will present their accepted research papers. Talk durations will be adapted based on the number of presentations to ensure depth and audience engagement.
-
 ## New Highlights for This Edition
 
 To further enhance participant engagement, EARL 2025 will introduce:
@@ -16,25 +9,39 @@ To further enhance participant engagement, EARL 2025 will introduce:
 - **Best Paper Award:** This award will recognize originality, technical rigor, and impact in LLM-based recommendation research. The selection will combine reviewer evaluations and organizer deliberation.
 - **Interactive Panel Discussion:** A dynamic panel of experts will address pressing issues in the field. Audience members will be invited to submit questions in advance and engage in real-time discussions during the session, fostering rich dialogue between academia and industry.
 
+## Invited Talks
+
+The EARL workshop proudly presents 2 invited talks, who will provide in-depth insights into the latest developments in the integration of large language models with recommendation systems. 
+- **Title: _LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment_**  
+   **Wei-Wei Du** (**Sony Group Corporation**), **Tommaso Carraro** (**Sony AI**)  
+   Abstract: Large language models are opening new frontiers in recommender systems, enabling richer representations of user behavior, improved handling of cold-start scenarios, and the development of recommendation agents. In the first part of this talk, we will present recent advances in aligning temporal intervals with the language modality and discuss how LLMs can mitigate data sparsity challenges. In the second part of this talk, we will discuss recommendation system agents and present a brief demo of them.
+
+- **Title: _Agentic Marketplace: The next era of recommendation system_**  
+   **Wenyue Hua** (**Microsoft Research, AI Frontier**)  
+   Abstract: As autonomous agents begin making economic decisions on behalf of humans, understanding their market behavior becomes critical for designing stable autonomous agent economies. Existing research focuses primarily on isolated two-agent negotiations or theoretical game scenarios, leaving gaps in real-world market interactions. We introduce the Agentic Marketplace, a three-tier platform where Assistant agents search, negotiate, and transact while Service agents compete through pricing and offerings. In experiments across numerous high-fidelity marketplace configurations, we compare the welfare that autonomous agents achieved against optimal welfare. We study the impact of recommendation accuracy, recency bias, resilience of the such marketplace under red teaming. These findings establish metrics to measure market health and provide insights for designing resilient agentic marketplaces.
+
 ## Accepted Papers
+
+### Oral Presentations
 - **[AudioBoost: Increasing Audiobook Retrievability in Spotify Search with Synthetic Query Generation](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_7.pdf)**  
    *Enrico Palumbo, Gustavo Penha, Alva Liu, Marcus Eltscheminov, Jefferson Carvalho dos Santos, Alice Wang, Hugues Bouchard, Humberto Corona and Michelle Tran Luu*
-
-- **[Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf)**  
-   *Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang*
-
-- **[LLM-based Relevance Assessment for Web-Scale Search Evaluation at Pinterest](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_142.pdf)**  
-   *Han Wang, Alex Whitworth, Pak Ming Cheung, Zhenjie Zhang and Krishna Kamath*
-
-- **[ScientiaRec: a Scientific Article Recommendation System with LLM-Driven Feature Extraction](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_143.pdf)**  
-   *Imen Ben Sassi*
 
 - **[A Metric for MLLM Alignment in Large-scale Recommendation](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_120.pdf)**  
    *Yubin Zhang, Yanhua Huang, Haiming Xu, Mingliang Qi, Chang Wang, Jiarui Jin, Xiangyuan Ren, Xiaodan Wang and Ruiwen Xu*
 
+- **[ScientiaRec: a Scientific Article Recommendation System with LLM-Driven Feature Extraction](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_143.pdf)**  
+   *Imen Ben Sassi*
+
 - **[LLM-as-Judge: Rapid Evaluation of Legal Document Recommendation via Retrieval-Augmented Generation](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_4.pdf)**  
    *Anu Pradhan, Alexandra Ortan, Apurv Verma and Madhavan Seshadri*
 
+- **[LLM-based Relevance Assessment for Web-Scale Search Evaluation at Pinterest](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_142.pdf)**  
+   *Han Wang, Alex Whitworth, Pak Ming Cheung, Zhenjie Zhang and Krishna Kamath*
+
+- **[Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf)**  
+   *Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang*
+
+### Poster Presentations
 - **[SemSR: Semantics aware robust Session-based Recommendations](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_23.pdf)**  
    *Jyoti Narwariya, Priyanka Gupta, Muskan Gupta, Jyotsana Khatri and Lovekesh Vig*
 

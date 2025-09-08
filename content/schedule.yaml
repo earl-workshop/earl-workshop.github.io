@@ -11,7 +11,7 @@ schedule:
         ends: 14:30
         title: "Invited Talk 1: LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment"
         speaker: "Wei-Wei Du (Sony Group Corporation), Tommaso Carraro (Sony Research India)"
-        # url: https://earl-workshop.github.io/
+        url: https://earl-workshop.github.io/activities
       - starts: 14:30
         ends: 14:50
         title: "AudioBoost: Increasing Audiobook Retrievability in Spotify Search with Synthetic Query Generation"
@@ -27,11 +27,6 @@ schedule:
         title: "ScientiaRec: a Scientific Article Recommendation System with LLM-Driven Feature Extraction"
         presenters: "Imen Ben Sassi"
         url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_143.pdf
-#      - starts: 15:10
-#        ends: 15:30
-#        title: ""
-#        presenters:
-#        url:
       - starts: 15:30
         ends: 16:00
         title: Coffee break
@@ -39,7 +34,7 @@ schedule:
         ends: 16:40
         title: "Invited Talk 2: Agentic Marketplace: The next era of recommendation system"
         speaker: "Wenyue Hua (Microsoft Research)"
-#        url:
+        url: https://earl-workshop.github.io/activities
       - starts: 16:40
         ends: 17:00
         title: "LLM-as-Judge: Rapid Evaluation of Legal Document Recommendation via Retrieval-Augmented Generation"
@@ -55,10 +50,3 @@ schedule:
         title: "Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting"
         presenters: "Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang"
         url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf
-#        presenters:
-#        url:
-#      - starts: 17:10
-#        ends: 17:30
-#        title:
-#        presenters:
-#        url:
