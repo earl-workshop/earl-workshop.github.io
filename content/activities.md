@@ -12,11 +12,11 @@ To further enhance participant engagement, EARL 2025 will introduce:
 ## Invited Talks
 
 The EARL workshop proudly presents 2 invited talks, who will provide in-depth insights into the latest developments in the integration of large language models with recommendation systems. 
-- **Title: _LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment_**  
+- **Invited Talk 1: _LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment_**  
    **Wei-Wei Du** (**Sony Group Corporation**), **Tommaso Carraro** (**Sony AI**)  
    Abstract: Large language models are opening new frontiers in recommender systems, enabling richer representations of user behavior, improved handling of cold-start scenarios, and the development of recommendation agents. In the first part of this talk, we will present recent advances in aligning temporal intervals with the language modality and discuss how LLMs can mitigate data sparsity challenges. In the second part of this talk, we will discuss recommendation system agents and present a brief demo of them.
 
-- **Title: _Agentic Marketplace: The next era of recommendation system_**  
+- **Invited Talk 2: _Agentic Marketplace: The next era of recommendation system_**  
    **Wenyue Hua** (**Microsoft Research, AI Frontier**)  
    Abstract: As autonomous agents begin making economic decisions on behalf of humans, understanding their market behavior becomes critical for designing stable autonomous agent economies. Existing research focuses primarily on isolated two-agent negotiations or theoretical game scenarios, leaving gaps in real-world market interactions. We introduce the Agentic Marketplace, a three-tier platform where Assistant agents search, negotiate, and transact while Service agents compete through pricing and offerings. In experiments across numerous high-fidelity marketplace configurations, we compare the welfare that autonomous agents achieved against optimal welfare. We study the impact of recommendation accuracy, recency bias, resilience of the such marketplace under red teaming. These findings establish metrics to measure market health and provide insights for designing resilient agentic marketplaces.
 
