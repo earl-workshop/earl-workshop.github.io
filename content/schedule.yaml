@@ -9,7 +9,7 @@ schedule:
         title: "Welcome note - Award Announcement"
       - starts: 13:40
         ends: 14:30
-        title: "Invited Talk: LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment"
+        title: "Invited Talk 1: LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment"
         speaker: "Wei-Wei Du (Sony Group Corporation), Tommaso Carraro (Sony Research India)"
         # url: https://earl-workshop.github.io/
       - starts: 14:30
@@ -37,7 +37,7 @@ schedule:
         title: Coffee break
       - starts: 16:00
         ends: 16:40
-        title: "Invited Talk: Agentic Marketplace: The next era of recommendation system"
+        title: "Invited Talk 2: Agentic Marketplace: The next era of recommendation system"
         speaker: "Wenyue Hua (Microsoft Research)"
 #        url:
       - starts: 16:40
