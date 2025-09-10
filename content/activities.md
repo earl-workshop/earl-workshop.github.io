@@ -7,6 +7,7 @@ title = "Workshop Activities"
 To further enhance participant engagement, EARL 2025 will introduce:
 
 - **Best Paper Award:** This award will recognize originality, technical rigor, and impact in LLM-based recommendation research. The selection will combine reviewer evaluations and organizer deliberation.
+- **Poster Presentations:** We are excited to feature a dedicated poster session during the coffee break on our workshop day, _September 26_. For general preparation guidelines, you can consult the [Instruction for Poster Authors](https://recsys.acm.org/wp-content/uploads/2025/08/Instruction-for-Poster-Authors.pdf), but be aware that our session timing is specific to the workshop.
 
 ## Invited Talks
 
