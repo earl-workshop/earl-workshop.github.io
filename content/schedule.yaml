@@ -19,9 +19,9 @@ schedule:
         url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_7.pdf
       - starts: 14:50
         ends: 15:10
-        title: "A Metric for MLLM Alignment in Large-scale Recommendation"
-        presenters: "Yubin Zhang, Yanhua Huang, Haiming Xu, Mingliang Qi, Chang Wang, Jiarui Jin, Xiangyuan Ren, Xiaodan Wang and Ruiwen Xu"
-        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_120.pdf
+        title: "Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting"
+        presenters: "Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf
       - starts: 15:10
         ends: 15:30
         title: "ScientiaRec: a Scientific Article Recommendation System with LLM-Driven Feature Extraction"
@@ -47,6 +47,6 @@ schedule:
         url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_142.pdf
       - starts: 17:20
         ends: 17:40
-        title: "Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting"
-        presenters: "Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang"
-        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_30.pdf
+        title: "A Metric for MLLM Alignment in Large-scale Recommendation"
+        presenters: "Yubin Zhang, Yanhua Huang, Haiming Xu, Mingliang Qi, Chang Wang, Jiarui Jin, Xiangyuan Ren, Xiaodan Wang and Ruiwen Xu"
+        url: https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_120.pdf
