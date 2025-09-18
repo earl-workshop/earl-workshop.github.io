@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EARL 2024 - EARL Workshop</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/favicon-16x16.png">
+    <link rel="manifest" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/site.webmanifest">
+    <link rel="mask-icon" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://earl-workshop.github.io/atom.xml" />
+    
+
+    
+
+    <link href="https://earl-workshop.github.io/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="coderefinery.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities">
+      Workshop Activities
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;call-for-papers">
+      Call for Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;organizers">
+      Organizers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pc-members">
+      PC Members
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;contact">
+      Contact
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities">
+      Workshop Activities
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;call-for-papers">
+      Call for Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;organizers">
+      Organizers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pc-members">
+      PC Members
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;contact">
+      Contact
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  
+  
+    <h1 id="earl-workshop-2024">EARL Workshop 2024</h1>
+<h2 id="call-for-papers">Call for Papers</h2>
+<h3 id="related-topics">Related Topics:</h3>
+<p>The EARL Workshop on Evaluating and Applying Recommendation Systems with Large Language Models invites contributions that utilize LLMs to enhance and innovate within the realm of recommendation systems. We welcome submissions on a variety of topics, not limited to but including:</p>
+<ul>
+<li>Recommendation Models based on LLM</li>
+<li>Evaluation of LLM-based Recommendation</li>
+<li>Bias and Fairness of LLM-based Recommendation</li>
+<li>Conversational Recommendation with LLM</li>
+<li>Explainable and Interpretable LLM for Recommendation</li>
+<li>Real-world Application of LLM-based Recommendation</li>
+<li>Multimodal Recommendation with LLM</li>
+<li>Efficient LLM for Recommendation</li>
+<li>Personalized Generation with LLM</li>
+<li>LLM-based Agents for Recommendation</li>
+<li>Controllable LLM for Recommendation</li>
+<li>Privacy-aware LLM for Recommendation</li>
+<li>Cross-domain and Cross-platform Recommendations with LLM</li>
+<li>Multilingual and Cross-Lingual Recommendation with LLM</li>
+<li>LLM-based User Interface for Recommendation</li>
+</ul>
+<h3 id="paper-submission">Paper submission</h3>
+<ul>
+<li>
+<p>Authors are encouraged to submit contributions in one of the following formats.</p>
+<ul>
+<li>Long Papers: detail significant and enduring contributions (up to 10 pages, with extra pages permissible for references); </li>
+<li>Short Papers: ideally suited for presenting new and promising work that hasn't yet reached the maturity required for a long paper (up to 5 pages, with the option to include additional pages for references). </li>
+<li>Authors are required to submit manuscripts adhering to the ACM format: <a rel="noopener" target="_blank" href="https://www.acm.org/publications/proceedings-template">https://www.acm.org/publications/proceedings-template</a> </li>
+<li>Submission here: <a rel="noopener" target="_blank" href="https://easychair.org/my/conference?conf=recsys2024workshops">https://easychair.org/my/conference?conf=recsys2024workshops</a> </li>
+</ul>
+</li>
+<li>
+<p>This workshop is non-archival, meaning that submissions will neither be indexed nor have formal proceedings.</p>
+<ul>
+<li>Accepted papers will appear on the workshop website.</li>
+<li>We welcome submissions that are currently under review at other venues, provided this does not breach the dual-submission or anonymity policies of those venues.</li>
+</ul>
+</li>
+<li>
+<p>The review process will be double-blind.</p>
+</li>
+</ul>
+<h3 id="important-dates">Important Dates:</h3>
+<ul>
+<li>Call for Papers starts: April 28th, 2024</li>
+<li>Paper submission deadline: August 30th, 2024</li>
+<li>Reviewer deadline: September 11th, 2024</li>
+<li>Author notification: September 13th, 2024</li>
+<li>Camera-ready version deadline: September 20th, 2024</li>
+</ul>
+<h2 id="workshop-activities">Workshop Activities</h2>
+<h3 id="invited-talks">Invited Talks:</h3>
+<p>The EARL workshop proudly presents 2 invited talks, who will provide in-depth insights into the latest developments in the integration of large language models with recommendation systems. </p>
+<ul>
+<li><strong>Prof. Scott Sanner</strong> (<em>ssanner@mie.utoronto.ca</em>), from University of Toronto, has a broad range of topics from the data-driven fields of Machine Learning and Information Retrieval to the decision-driven fields of Artificial Intelligence and Operations Research. 
+In this talk I will begin by discussing the need for personalized recommendation in conversational AI assistants and the fundamental challenges that make this problem difficult.  I will next provide a review of recent developments in this field leading up to modern LLM-enhanced conversational recommendation systems.  I will then discuss some of my group's own research on LLM-based conversational recommendation that highlights the significant advances and opportunities offered by LLMs as well some of the technical and societal challenges created by this fundamental shift to LLM-based architectures.</li>
+<li><strong>Assoc. Prof. Yongfeng Zhang</strong> (<em>yongfeng.zhang@rutgers.edu</em>), from Rutgers University, focuses on a wide range of subjects, including Machine Learning, Data Mining, Information Retrieval, Recommender Systems, and Explainable AI. 
+Generative AI driven by Foundation Models has brought a paradigm shift for recommender systems. Instead of traditional multi-stage filtering and matching-based recommendation, it now becomes possible to do straightforward single-stage recommendation by directly generating the recommended items based on users’ personalized inputs. This paradigm shift not only brings increased recommendation accuracy, but also improves the efficiency through single-stage recommendation, and enables better controllability for users based on natural language prompts. This talk will introduce generative recommendation from various perspectives, including foundation models for recommendation, item representation, textual ID learning, item indexing methods, multi-modal recommendation, prompt generation, as well as the explainability of foundation models for recommendation.</li>
+</ul>
+<h3 id="coffee-break">Coffee Break:</h3>
+<p>A central feature of the EARL workshop is the interactive session, coupled with a coffee break. This session is not merely an opportunity to delve into specific research topics, but also a perfect setting for attendees to network and engage in meaningful discussions, fostering a collaborative environment. </p>
+<h3 id="accepted-papers">Accepted Papers:</h3>
+<ul>
+<li>
+<p><strong><a rel="noopener" target="_blank" href="https://earl-workshop.github.io/pdf/recsys2024-workshops_paper_29.pdf">Leveraging LLMs to Enhance a Web-Scale Webpage Recommendation System</a></strong><br />
+<em>Jaidev Shah, Iman Barjasteh, Amey Barapatre, Rana Forsati, Gang Luo, Fan Wu, Julie Fang, Xue Deng, Blake Shepard, Ronak Shah, Linjun Yang, Hongzhi Li</em></p>
+</li>
+<li>
+<p><strong><a rel="noopener" target="_blank" href="https://earl-workshop.github.io/pdf/recsys2024-workshops_paper_123.pdf">GenRec: Generative Sequential Recommendation with Large Language Models</a></strong><br />
+<em>Panfeng Cao, Pietro Liò</em></p>
+</li>
+<li>
+<p><strong><a rel="noopener" target="_blank" href="https://earl-workshop.github.io/pdf/recsys2024-workshops_paper_45.pdf">A Practice-Friendly LLM-Enhanced Paradigm with Preference Parsing for Sequential Recommendation</a></strong><br />
+<em>Dugang Liu, Shenxian Xian, Xiaolin Lin, Xiaolian Zhang, Hong Zhu, Yuan Fang, Zhen Chen, Zhong Ming</em></p>
+</li>
+<li>
+<p><strong><a rel="noopener" target="_blank" href="https://earl-workshop.github.io/pdf/recsys2024-workshops_paper_48.pdf">Data Imputation Using Large Language Model to Accelerate Recommender System</a></strong><br />
+<em>Jiahao Tian, Jinman Zhao, Zhenkai Wang, Zhicheng Ding, Siyang Li</em></p>
+</li>
+</ul>
+<h2 id="organizers">Organizers</h2>
+<ul>
+<li><strong>Dr. Irene Li</strong> (<em>irene.li@weblab.t.u-tokyo.ac.jp</em>) is a Project Assistant Professor at the University of Tokyo. Her main research interests lie in natural language processing and artificial intelligence, with a specific focus on medical and clinical texts as well as educational applications. She publishes and serves on the program committee for top conferences, including ACL, NANAC, EMNLP, AAAI, among others. Additionally, she serves as the principal organizer of both online and offline seminars, one of which attracted approximately 300 registrations. She was also among the authors of the <strong>Best Student Paper Award at RecSys 2023</strong>.</li>
+<li><strong>Dr. Ruihai Dong</strong> (<em>ruihai.dong@ucd.ie</em>) is an Assistant Professor at the University College of Dublin. His research interests lie in Machine Learning and Deep Learning, and their applications in recommender systems and finance. Ruihai has published in top peer-reviewed journals and leading conferences such as WWW, RECSYS, IUI, ACL, IJCAI, etc., and also has served on the program committee for various conferences, including ACL, AAAI, ECML, EMNLP, etc. He was also a co-author of the <strong>Best Student Paper Award at RecSys 2023</strong>. He was a founder and organizer of the Deep Learning meetup in Dublin and organized a series of events sponsored by multiple industry supporters, including Zalando, Accenture, Deloitte, etc.</li>
+<li><strong>Dr. Lei Li</strong> (<em>csleili@comp.hkbu.edu.hk</em>) is a Post-doctoral Research Fellow at Hong Kong Baptist University. His research interests lie in recommender systems and natural language processing. Recently, he has been investigating large language models (LLM) for recommender systems, which has been supported by Hong Kong Research Grants Council (RGC) since 2022. His research outcome on this topic includes LLM-based explainable recommendation, efficient LLM for recommendation, and a survey of LLM-based recommendation. He served as a PC member for RecSys and WWW, as a reviewer for journals such as TKDE, TOIS, TORS, and TBD, and as a guest editor for a special issue of TORS entitled &quot;Large Language Models for Recommender Systems&quot;. He also did a tutorial presentation about LLM-based recommendations at RecSys in 2023, titled <strong>Large Language Models for Recommendation</strong>, which attracted hundreds of audiences.</li>
+<li><strong>Prof. Li Chen</strong> (<em>lichen@comp.hkbu.edu.hk</em>) is a Professor and Associate Head (Research) of the Department of Computer Science at Hong Kong Baptist University. Professor Chen’s recent research focus has mainly been on personalized conversational and explainable AI, with applications covering various domains, including entertainment, digital media, education, e-commerce, and psychological well-being. She has authored and co-authored over 120 publications, most of which appear in high-impact journals (such as IJHCS, CSCW, TOCHI, TOIS, UMUAI, TIST, TIIS, KNOSYS, Behavior &amp; Information Technology, AI Magazine, and IEEE Intelligent Systems), and key conferences in the areas of data mining (SIGKDD, WSDM, SDM), artificial intelligence (IJCAI, AAAI), recommender systems (ACM RecSys), user modeling (UMAP), and intelligent user interfaces (CHI, IUI, Interact). She has served as a Journal Editor and Conference organizer in a number of leading journals and conferences, such as <strong>General Co-chair of RecSys 2023</strong>, Track Co-chair of UMAP'23, etc.</li>
+</ul>
+<h2 id="pc-members">PC Members</h2>
+<ul>
+<li>Aonghus Lawlor (Insight Centre for Data Analytics, Ireland)</li>
+<li>Neil Hurley (Insight Centre for Data Analytics, Ireland)</li>
+<li>Tianwei She (Moveworks, USA)</li>
+<li>Elias Tragos (Insight Centre for Data Analytics, Ireland)</li>
+<li>Hang Jiang (MIT, USA)</li>
+<li>Sixun Ouyang (Manulife Singapore Pte. Ltd., Singapore)</li>
+<li>Dairui Liu (UCD, Ireland)</li>
+<li>Honghui Du (Insight Centre for Data Analytics, Ireland)</li>
+<li>Boming Yang (UTokyo, Japan)</li>
+<li>Daxiang Dong (Baidu Inc, China)</li>
+<li>Qin Ruan (UCD, Ireland)</li>
+<li>Yuang Jiang (Meta Inc, USA)</li>
+<li>Rui Yang (NUS, Singapore)</li>
+<li>Jinghui Lu (Smartor, China)</li>
+<li>Zheng Ju (UCD, Ireland)</li>
+<li>Bichen Shi (Huawei Ireland Research Center, Ireland)</li>
+<li>Tri Kurniawan Wijaya (Huawei Ireland Research Centre, Ireland)</li>
+<li>Aayush Singha Roy (UCD, Ireland)</li>
+<li>Xingsheng Guo (Huawei Ireland Research Center, Ireland)</li>
+<li>Michael O' Mahony (Insight Centre for Data Analytics, Ireland)</li>
+</ul>
+
+  
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+  <div>
+    <h4>EARL Workshop</h4>
+    <p>
+      The workshop will be held on <a href="https://recsys.acm.org/recsys25/">RecSys 2025</a>.
+    </p>
+    <p>
+      <img alt="RecSys" src="/img/recsys_logo.png">
+    </p>
+  </div>
+
+  <div>
+    <h4>SUPPORTERS</h4>
+      <a href="https://www.smartor.ai/" target="_blank" rel="noopener noreferrer">
+        <img alt="Smartor" src="/img/smartor_logo.png" width="180" height="50">
+      </a>
+      <p></p>
+
+      <a href="https://www.insight-centre.org/" target="_blank" rel="noopener noreferrer">
+        <img alt="Insight" src="/img/INSIGHT LOGO_colour.png" width="180" height="50">
+      </a>
+      <p></p>
+
+      <a href="https://www.kiboryoku.com/" target="_blank" rel="noopener noreferrer">
+        <img alt="KR" src="/img/KR_logo.png" width="180" height="50">
+      </a>
+
+
+  </div>
+
+  <div>
+    <h4>CONTACT</h4>
+    <p>
+      <a href="mailto: irene.li@weblab.t.u-tokyo.ac.jp"> irene.li@weblab.t.u-tokyo.ac.jp</a>, <a href="mailto: ruihai.dong@ucd.ie"> ruihai.dong@ucd.ie</a>
+      
+    </p>
+  </div>
+  <div>
+    <h4>PREVIOUS WORKSHOPS</h4>
+    <p>
+        <a href="https://earl-workshop.github.io/earl2024">EARL 2024</a>
+    </p>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>

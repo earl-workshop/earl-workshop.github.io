@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EARL Workshop</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/favicon-16x16.png">
+    <link rel="manifest" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/site.webmanifest">
+    <link rel="mask-icon" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;/img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://earl-workshop.github.io/atom.xml" />
+    
+
+    
+
+    <link href="https://earl-workshop.github.io/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="coderefinery.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities">
+      Workshop Activities
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;call-for-papers">
+      Call for Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;organizers">
+      Organizers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pc-members">
+      PC Members
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;contact">
+      Contact
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities">
+      Workshop Activities
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;call-for-papers">
+      Call for Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;organizers">
+      Organizers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pc-members">
+      PC Members
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;contact">
+      Contact
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  <div class="uk-margin-bottom" uk-grid>
+    <div class="uk-width-expand@m">
+      <h1>EARL Workshop</h1>
+      
+<p>The 2nd EARL Workshop on Evaluating and Applying Recommender Systems with Large Language Models will take place at RecSys 2025 in Prague, Czech Republic. This workshop focuses on advancing the application, evaluation, and understanding of large language models (LLMs) in the context of recommender systems (RSs).
+The event encourages submissions on emerging techniques such as retrieval-augmented generation (RAG), multi-modal recommendation, reinforcement learning with human feedback (RLHF), dynamic prompting, scalable fine-tuning, and personalized conversational agents. It also highlights real-world applications, deployment experiences, and critical challenges related to fairness, transparency, and responsible AI in LLM-driven RSs.</p>
+
+
+    </div>
+    <div class="uk-width-1-4@m uk-flex uk-flex-middle uk-flex-center" style="padding-left: 10px;margin-top: 30px">
+      <div class="uk-align-right" style="margin-left: 0">
+        
+  
+  <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;" target="_blank" style="display: block; height: 100%;">
+    <img src="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;processed_images&#x2F;EARL_logo.2f32b5dc1353dde3.png" alt="EARL Workshop LOGO"
+         style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block; margin: 0 auto;" />
+  </a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light uk-margin-large-bottom">
+      <div uk-grid class="uk-grid-small uk-flex-top">
+      <div class="uk-width-1-4@m">
+
+
+
+
+
+
+
+        
+<h3 id="call-for-papers">Call for papers</h3>
+<ul>
+<li>Important Dates:
+<ul>
+<li><del>Call for Papers publication: April 25, 2025</del></li>
+<li><del>First Round paper submission deadline: July 10, 2025</del></li>
+<li><del>Second Round paper submission deadline: August 7, 2025 (RecSys Official Suggested)</del></li>
+<li><del>Reviewer deadline: August 21, 2025</del></li>
+<li><del>Author notification: August 25, 2025</del></li>
+<li><del>Camera-ready version deadline: September 4, 2025</del></li>
+</ul>
+</li>
+</ul>
+
+
+
+      </div>
+      <div class="uk-width-3-4@m">
+        <h2>Schedule</h2>
+        <script>
+  dayjs.extend(window.dayjs_plugin_utc)
+</script>
+
+<table class="uk-table uk-table-small uk-table-justify">
+  <tbody>
+    
+    
+        <tr>
+          <td colspan="2" style="text-align: center;">
+            <b>EARL is scheduled on September 26 (GMT+2), at Prague, Czech Republic</b>
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            13:30
+            -
+            13:40
+          </td>
+          <td class="uk-width-5-6">
+            
+              Welcome note - Award Announcement
+            
+            
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            13:40
+            -
+            14:30
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities&#x2F;#invited-talks" target="_blank">Invited Talk 1: LLMs for Next-Generation Recommender Systems: From Understanding User Behavior to Deployment</a>
+            
+            
+            
+            
+              <div class="uk-text-small">
+                Speaker: Wei-Wei Du (Sony Group Corporation), Tommaso Carraro (Sony Research India)
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            14:30
+            -
+            14:50
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pdf&#x2F;recsys2025-workshops_paper_7.pdf" target="_blank">AudioBoost: Increasing Audiobook Retrievability in Spotify Search with Synthetic Query Generation</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: Enrico Palumbo, Gustavo Penha, Alva Liu, Marcus Eltscheminov, Jefferson Carvalho dos Santos, Alice Wang, Hugues Bouchard, Humberto Corona and Michelle Tran Luu
+              </div>
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            14:50
+            -
+            15:10
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pdf&#x2F;recsys2025-workshops_paper_30.pdf" target="_blank">Revealing Potential Biases in LLM-Based Recommender Systems in the Cold Start Setting</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: Alexandre Andre, Gauthier Roy, Eva Dyer and Kai Wang
+              </div>
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            15:10
+            -
+            15:30
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pdf&#x2F;recsys2025-workshops_paper_143.pdf" target="_blank">ScientiaRec: a Scientific Article Recommendation System with LLM-Driven Feature Extraction</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: Imen Ben Sassi
+              </div>
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            15:30
+            -
+            16:00
+          </td>
+          <td class="uk-width-5-6">
+            
+              Coffee break
+            
+            
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            16:00
+            -
+            16:40
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities&#x2F;#invited-talks" target="_blank">Invited Talk 2: Agentic Marketplace: The next era of recommendation system</a>
+            
+            
+            
+            
+              <div class="uk-text-small">
+                Speaker: Wenyue Hua (Microsoft Research)
+              </div>
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            16:40
+            -
+            17:00
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pdf&#x2F;recsys2025-workshops_paper_4.pdf" target="_blank">LLM-as-Judge: Rapid Evaluation of Legal Document Recommendation via Retrieval-Augmented Generation</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: Anu Pradhan, Alexandra Ortan, Apurv Verma and Madhavan Seshadri
+              </div>
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            17:00
+            -
+            17:20
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pdf&#x2F;recsys2025-workshops_paper_142.pdf" target="_blank">LLM-based Relevance Assessment for Web-Scale Search Evaluation at Pinterest</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: Han Wang, Alex Whitworth, Pak Ming Cheung, Zhenjie Zhang and Krishna Kamath
+              </div>
+            
+            
+          </td>
+        </tr>
+      
+        <tr>
+          <td class="uk-width-1-6">
+            17:20
+            -
+            17:40
+          </td>
+          <td class="uk-width-5-6">
+            
+              <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pdf&#x2F;recsys2025-workshops_paper_120.pdf" target="_blank">A Metric for MLLM Alignment in Large-scale Recommendation</a>
+            
+            
+            
+              <div class="uk-text-small">
+                Presenters: Yubin Zhang, Yanhua Huang, Haiming Xu, Mingliang Qi, Chang Wang, Jiarui Jin, Xiangyuan Ren, Xiaodan Wang and Ruiwen Xu
+              </div>
+            
+            
+          </td>
+        </tr>
+      
+    
+  </tbody>
+</table>
+
+      </div>
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+  <div>
+    <h4>EARL Workshop</h4>
+    <p>
+      The workshop will be held on <a href="https://recsys.acm.org/recsys25/">RecSys 2025</a>.
+    </p>
+    <p>
+      <img alt="RecSys" src="/img/recsys_logo.png">
+    </p>
+  </div>
+
+  <div>
+    <h4>SUPPORTERS</h4>
+      <a href="https://www.smartor.ai/" target="_blank" rel="noopener noreferrer">
+        <img alt="Smartor" src="/img/smartor_logo.png" width="180" height="50">
+      </a>
+      <p></p>
+
+      <a href="https://www.insight-centre.org/" target="_blank" rel="noopener noreferrer">
+        <img alt="Insight" src="/img/INSIGHT LOGO_colour.png" width="180" height="50">
+      </a>
+      <p></p>
+
+      <a href="https://www.kiboryoku.com/" target="_blank" rel="noopener noreferrer">
+        <img alt="KR" src="/img/KR_logo.png" width="180" height="50">
+      </a>
+
+
+  </div>
+
+  <div>
+    <h4>CONTACT</h4>
+    <p>
+      <a href="mailto: irene.li@weblab.t.u-tokyo.ac.jp"> irene.li@weblab.t.u-tokyo.ac.jp</a>, <a href="mailto: ruihai.dong@ucd.ie"> ruihai.dong@ucd.ie</a>
+      
+    </p>
+  </div>
+  <div>
+    <h4>PREVIOUS WORKSHOPS</h4>
+    <p>
+        <a href="https://earl-workshop.github.io/earl2024">EARL 2024</a>
+    </p>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
