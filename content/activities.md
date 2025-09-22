@@ -63,7 +63,7 @@ The EARL workshop proudly presents 2 invited talks, who will provide in-depth in
 - **[Serendipitous Recommendation with Multimodal LLM](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_20.pdf)**  
    *Haoting Wang, Jianling Wang, Hao Li, Fangjun Yi, Mengyu Fu, Youwei Zhang, Yifan Liu, Liang Liu, Minmin Chen, Ed H. Chi, Lichan Hong and Haokai Lu*
 
-- **[DUALRec: A Hybrid Sequential and Language Model Framework for Context-Aware Movie Recommendation](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_91.pdf)**  [Poster](https://earl-workshop.github.io/poster/recsys2025-workshops_poster_91.pdf)
+- **[DUALRec: A Hybrid Sequential and Language Model Framework for Context-Aware Movie Recommendation](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_91.pdf)**  [[Poster](https://earl-workshop.github.io/poster/recsys2025-workshops_poster_91.pdf)]    
    *Yitong Li and Raoul Grasman*
 
 - **[Come Together: How Social Agents can Improve Music Discovery](https://earl-workshop.github.io/pdf/recsys2025-workshops_paper_182.pdf)**  
