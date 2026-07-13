@@ -2,26 +2,8 @@
 title = "PC Members"
 +++
 
-## PC Members
-The workshop is supported by a high-quality Program Committee with expertise in RSs and LLMs, which will be finalized in the coming weeks and already includes:
+## Program Committee
 
-- Tianwei She
-- Yuang Jiang
-- Jinwei Luo
-- Arundhati Navada
-- Boming Yang
-- Yingjian Chen
-- Fan Gao
-- Lorenzo Xiao
-- Li Kang
-- Jiaying Xu
-- Peilaing Zhang
-- Jinghui Lu
-- Ouyang Sixun
-- Yanran Fu
-- Hao Wu
-- Zhongyi Lu
-- Yingjie Niu
-- Qin Ruan
-- Changhong Jin
-- Ruoyang Zhang
+EARL 2026 will continue to benefit from a high-quality Program Committee with expertise in recommender systems and LLMs. A majority of the EARL 2025 reviewers have already agreed to participate again, and additional reviewers will be invited.
+
+The final Program Committee composition will be announced in the coming weeks.

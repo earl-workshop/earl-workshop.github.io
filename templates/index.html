@@ -3,44 +3,38 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <div class="uk-margin-bottom" uk-grid>
-    <div class="uk-width-expand@m">
+  <div class="home-intro">
+    <p class="eyebrow">CIKM 2026 · ROME, ITALY</p>
+    <div class="hero-title-row">
       <h1>{{ config.title }}</h1>
-      {% include "intro.html" %}
+      <a class="hero-signpost" href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">
+        <span>CO-LOCATED WITH</span>
+        <strong>CIKM 2026</strong>
+        <small>Rome, Italy</small>
+      </a>
     </div>
-    <div class="uk-width-1-4@m uk-flex uk-flex-middle uk-flex-center" style="padding-left: 10px;margin-top: 30px">
-      <div class="uk-align-right" style="margin-left: 0">
-        {% include "logos.html" %}
-      </div>
+    {% include "intro.html" %}
+    <div class="hero-visual">
+      <a href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">
+        <img src="{{ get_url(path="img/cikm2026_logo.png") }}" alt="CIKM 2026 official conference logo">
+      </a>
+      <p>35th International ACM Conference on Knowledge and Information Management</p>
     </div>
   </div>
 
-  <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light uk-margin-large-bottom">
+  <div class="home-panel uk-margin-large-bottom">
+    <div class="home-panel-heading">
+      <p class="eyebrow">THE 2026 EDITION</p>
+      <h2>Programme and updates</h2>
+    </div>
       <div uk-grid class="uk-grid-small uk-flex-top">
-      <div class="uk-width-1-4@m">
-{#        <h2>Live Meeting</h2>#}
-{#        <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTIzZjdmMGYtMmNlNS00NWMwLWJiYzQtZTA2NGRkZmM5Yzgx%40thread.v2/0?context=%7b%22Tid%22%3a%225b406aab-a1f1-4f13-a7aa-dd573da3d332%22%2c%22Oid%22%3a%228ab2cca5-4385-4ab5-abaa-1d6867a36061%22%7d"#}
-{#           class="uk-button uk-button-default uk-margin-small"#}
-{#           style="background-color: #f5f5f5; color: #333; border: 1px solid #ccc; border-radius: 5px; box-shadow: 1px 1px 5px rgba(0,0,0,0.1);"#}
-{#           target="_blank">#}
-{#          Join Here#}
-{#        </a>#}
+      <div class="uk-width-1-4@m home-news">
         {% include "news.html" %}
-{#        {% include "registration.html" %}#}
       </div>
-      <div class="uk-width-3-4@m">
+      <div class="uk-width-3-4@m home-schedule">
         <h2>Schedule</h2>
         {% include "schedule.html" %}
       </div>
-{#      <div class="uk-width-expand@m">#}
-{#        {% include "news.html" %}#}
-{#      </div>#}
-{#      <div class="uk-width-expand@m">#}
-{#        {% include "registration.html" %}#}
-{#        <h2>Schedule</h2>#}
-{#        {% include "schedule.html" %}#}
-{#          We have a half-day program on September 26 (GMT+2), at Prague, Czech Republic.#}
-{#      </div>#}
     </div>
   </div>
 {% endblock content %}

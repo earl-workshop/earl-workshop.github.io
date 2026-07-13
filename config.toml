@@ -5,8 +5,8 @@
 base_url = "https://earl-workshop.github.io/"
 
 # When adapting the title, do not forget to also adjust base_url above
-title = "EARL Workshop"
-description = ""
+title = "EARL Workshop 2026"
+description = "EARL 2026, the 3rd Workshop on Evaluating and Applying Recommender Systems with Large Language Models, co-located with CIKM 2026 in Rome."
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -36,7 +36,7 @@ navigation = [
 ]
 
 # plausible.io analytics
-plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "coderefinery.github.io", github_ref = "refs/heads/main" }
+plausible = { src = "https://plausible.cs.aalto.fi/js/script.js", domain = "earl-workshop.github.io", github_ref = "refs/heads/main" }
 
 
 # you can place multiple logos like this
@@ -46,11 +46,11 @@ logos = [
 ]
 
 # adapt this
-registration_link = "https://easychair.org/my/conference?conf=recsys2025workshops"
+registration_link = ""
 source_repo = "https://github.com/earl-workshop/earl-workshop.github.io"
 
 # uncomment as soon as registration opens
-registration_is_open = true
+registration_is_open = false
 
 # uncomment as soon as registration closes
  registration_is_closed = false

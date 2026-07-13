@@ -2,49 +2,45 @@
 title = "Call for Papers"
 +++
 
-## Related Topics:
+## Workshop scope
 
-The EARL Workshop welcomes submissions on (1) emerging techniques for LLM-based RSs (including retrieval-augmented generation, multi-modal recommendation, reinforcement learning with human feedback, scalable fine-tuning methods, dynamic prompting strategies, and personalized conversational agents), (2) real-world applications of existing LLMs, and (3) critical challenges in ensuring the trustworthiness and responsibility of LLM-driven RSs.
+EARL 2026 welcomes research on the evaluation and application of large language models within recommender systems. We particularly encourage work connecting recommendation with core CIKM themes such as information retrieval, knowledge representation, knowledge management, user modeling, personalization, and data-driven intelligent systems.
 
-In detail, topics of interest include, but are not limited to, the following:
-- Integrating LLMs to enhance RSs.
-- Leveraging LLM-generated data to improve traditional RSs.
-- LLM fine-tuning or prompt engineering techniques for RSs.
-- Developing interactive and conversational RSs with LLMs.
-- Integration of reinforcement learning with LLMs to adapt recommendations based on user feedback.
-- Leveraging retrieval-augmented generation (RAG) to improve relevance and diversity in recommendations.
-- Multi-modal RSs powered by LLMs, e.g., techniques integrating text, images, and audio data.
-- Few-shot and zero-shot learning for LLM-based RSs.
-- Personalization strategies for LLM-powered RSs, including dynamic user modeling and real-time adaptation.
-- Cross-domain and cross-lingual RSs utilizing multilingual and generalist LLMs.
-- Applications of LLM-enhanced RSs in domains such as finance, streaming platforms, and social networks.
-- Scalability challenges in deploying LLM-powered RSs.
-- Efficiency challenges in deploying LLM-powered RSs.
-- Evaluation of LLM-powered RSs using novel metrics/standards.
-- Evaluation of LLM-powered RSs using human feedback.
-- Enhancing transparency in LLM-powered RSs.
-- Enhancing fairness in LLM-powered RSs.
-- Enhancing explainability in LLM-powered RSs.
-- Trustworthy recommendation with LLMs, addressing bias, safety, privacy, and authenticity issues.
-- Responsible AI practices in LLM-powered RSs, emphasizing ethical considerations and sustainable AI.
+We welcome submissions from academia and industry, including exploratory work that raises important questions about the future of LLM-enhanced recommender systems.
 
-## Paper submission  
-- Authors are encouraged to submit contributions in one of the following formats.
-  - Long Papers: detail significant and enduring contributions (up to 10 pages, with extra pages permissible for references); 
-  - Short Papers: ideally suited for presenting new and promising work that hasn't yet reached the maturity required for a long paper (up to 5 pages, with the option to include additional pages for references). 
-  - Authors are required to submit manuscripts adhering to the ACM format: [https://www.acm.org/publications/proceedings-template](https://www.acm.org/publications/proceedings-template) 
-  - Submission here: [https://easychair.org/my/conference?conf=recsys2025workshops](https://easychair.org/my/conference?conf=recsys2025workshops) 
+## Topics of interest
 
-- This workshop is non-archival, meaning that submissions will neither be indexed nor have formal proceedings.
-  - Accepted papers will appear on the workshop website.
-  - We welcome submissions that are currently under review at other venues, provided this does not breach the dual-submission or anonymity policies of those venues.
-- The review process will be double-blind.
+Topics include, but are not limited to:
 
-## Important Dates: 
-- ~~Call for Papers publication: April 25, 2025~~
-- ~~First Round paper submission deadline: July 10, 2025~~
-- ~~Second Round paper submission deadline: August 7, 2025 (RecSys Official Suggested)~~
-- ~~Reviewer deadline: August 21, 2025~~
-- ~~Author notification: August 25, 2025~~
-- ~~Camera-ready version deadline: September 4, 2025~~
+- Retrieval-augmented and knowledge-grounded recommendation.
+- Conversational, interactive, and agent-based recommendation.
+- Multimodal recommendation powered by LLMs.
+- Efficient and scalable deployment of LLM-enhanced recommender systems.
+- Evaluation, reproducibility, and methodological soundness.
+- Real-world applications and deployment experiences.
+- Personalization, user modeling, and recommendation across domains.
+- Fairness, safety, privacy, transparency, explainability, and responsible AI.
 
+## Submission formats
+
+- **Long papers:** Up to 8 pages, plus additional pages for references. Long papers should describe significant and enduring contributions.
+- **Short papers:** Up to 4 pages, plus additional pages for references. Short papers are intended for promising work that is not yet mature enough for a long paper.
+
+Submissions should use the ACM Proceedings template in double-column format. All accepted papers will be non-archival. We particularly welcome contributions from early-career researchers and students.
+
+## Review process
+
+Submissions will undergo double-blind peer review and will be evaluated by at least three reviewers based on academic soundness, relevance to the workshop themes, and interest to the CIKM community.
+
+## Important dates
+
+The workshop submission portal and the final dates will be announced soon.
+
+- Call for papers: **To be announced**
+- Paper submission deadline: **To be announced**
+- Author notification: **To be announced**
+- Camera-ready version: **To be announced**
+
+## Host conference
+
+EARL 2026 will be held at the 35th International ACM Conference on Knowledge and Information Management (CIKM 2026), 7-11 November 2026, in Rome, Italy. See the [official CIKM 2026 website](https://cikm2026.diag.uniroma1.it/) for conference-wide information.

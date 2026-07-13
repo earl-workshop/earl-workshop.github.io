@@ -1,4 +1,11 @@
 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-left">
+    {% set earl_logo = resize_image(path="logos/EARL_logo.png", width=160, op="fit_width") %}
+    <a class="site-brand" href="{{ get_url(path="") }}" aria-label="EARL Workshop 2026 home">
+      <img src="{{ earl_logo.url }}" alt="EARL Workshop logo">
+      <span class="site-year">2026</span>
+    </a>
+  </div>
   <div class="uk-navbar-right">
     <ul class="uk-navbar-nav uk-visible@s">
       {% set unroll = false %}
