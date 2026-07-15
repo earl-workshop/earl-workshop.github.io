@@ -4,7 +4,7 @@ title = "Workshop Activities"
 
 ## Workshop format
 
-EARL 2026 will be a half-day workshop held in person at CIKM 2026. Invited talks and oral paper presentations will also support remote participation via Zoom; the interactive poster session will be held in person.
+EARL 2026 will be a half-day workshop held in person at CIKM 2026, with invited talks, oral paper presentations, and an interactive poster session.
 
 ## Programme highlights
 
