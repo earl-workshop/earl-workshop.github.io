@@ -27,7 +27,7 @@
   <div class="uk-width-1-2@s uk-width-1-4@m">
     <div class="event-fact">
       <span class="event-fact-label">Format</span>
-      <strong>Half-day · hybrid talks</strong>
+      <strong>Half-day · In Person Only</strong>
     </div>
   </div>
 </div>
