@@ -22,9 +22,7 @@ Topics include, but are not limited to:
 - Fairness, safety, privacy, transparency, explainability, and responsible AI.
 
 ## Submission formats
-
-- **Long papers:** Up to 8 pages, plus additional pages for references. Long papers should describe significant and enduring contributions.
-- **Short papers:** Up to 4 pages, plus additional pages for references. Short papers are intended for promising work that is not yet mature enough for a long paper.
+We accept submission formats for both [Full Research Papers](https://cikm2026.diag.uniroma1.it/full-research-papers/) and [Short Research Papers](https://cikm2026.diag.uniroma1.it/short-research-papers/), following the same Call-for-Paper with the CIKM main conference. 
 
 Submissions should use the ACM Proceedings template in double-column format. All accepted papers will be non-archival. We particularly welcome contributions from early-career researchers and students.
 
