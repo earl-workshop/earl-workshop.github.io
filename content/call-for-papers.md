@@ -34,10 +34,10 @@ Submissions will undergo double-blind peer review and will be evaluated by at le
 
 ## Important dates
 
-The workshop submission portal and the final dates will be announced soon.
+Submissions are handled through [OpenReview](https://openreview.net/group?id=ACM.org/CIKM/2026/Workshop/EARL). Remaining dates will be announced soon.
 
 - Call for papers: **To be announced**
-- Paper submission deadline: **To be announced**
+- Paper submission deadline: **25 August 2026, 23:59 AoE**
 - Author notification: **To be announced**
 - Camera-ready version: **To be announced**
 
