@@ -36,11 +36,10 @@ Submissions will undergo double-blind peer review and will be evaluated by at le
 
 Submissions are handled through [OpenReview](https://openreview.net/group?id=ACM.org/CIKM/2026/Workshop/EARL). Remaining dates will be announced soon.
 
-- Call for papers: **To be announced**
 - Paper submission deadline: **25 August 2026, 23:59 AoE**
-- Author notification: **To be announced**
-- Camera-ready version: **To be announced**
+- Author notification: **23 September 2026, 23:59 AoE**
+- Camera-ready version: **30 September 2026, 23:59 AoE**
 
 ## Host conference
 
-EARL 2026 will be held at the 35th International ACM Conference on Knowledge and Information Management (CIKM 2026), 7-11 November 2026, in Rome, Italy. See the [official CIKM 2026 website](https://cikm2026.diag.uniroma1.it/) for conference-wide information.
+EARL 2026 will be held at the 35th International ACM Conference on Knowledge and Information Management (CIKM 2026), 8 November 2026, in Rome, Italy. See the [official CIKM 2026 website](https://cikm2026.diag.uniroma1.it/) for conference-wide information.
