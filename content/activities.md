@@ -16,4 +16,4 @@ EARL 2026 will be a half-day workshop held in person at CIKM 2026.
 
 ## Programme
 
-The detailed programme, invited speakers, and accepted contributions will be announced after the review process.
+The detailed programme and invited speakers will be announced soon. See the list of [accepted papers](https://earl-workshop.github.io/accepted-papers/).
