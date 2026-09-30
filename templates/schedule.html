@@ -1,47 +1,40 @@
-<script>
-  dayjs.extend(window.dayjs_plugin_utc)
-</script>
-
-<table class="uk-table uk-table-small uk-table-justify">
-  <tbody>
-    {% set data = load_data(path="content/schedule.yaml") %}
-    {% for day in data.schedule %}
-        <tr>
-          <td colspan="2" style="text-align: center;">
-            <b>{{ day.title }}</b>
-          </td>
-        </tr>
+{% set data = load_data(path="content/schedule.yaml") %}
+{% for day in data.schedule %}
+  <div class="schedule-day">
+    <h3>{{ day.title }}</h3>
+    {% if day.note %}<p class="schedule-note">{{ day.note }}</p>{% endif %}
+  </div>
+  <table class="uk-table uk-table-small schedule-table">
+    <tbody>
       {% for session in day.sessions %}
-        <tr>
-          <td class="uk-width-1-6">
-            {{ session.starts }}
-            -
-            {{ session.ends }}
-          </td>
-          <td class="uk-width-5-6">
-            {% if session.url %}
-              <a href="{{ session.url }}" target="_blank">{{ session.title }}</a>
+        <tr class="schedule-{{ session.kind | default(value="admin") }}">
+          <td class="schedule-time">{{ session.starts }}–{{ session.ends }}</td>
+          <td class="schedule-item">
+            {% if session.kind == "break" %}
+              <span class="schedule-break-label">{{ session.label }}</span>
             {% else %}
-              {{ session.title }}
-            {% endif %}
-            {% if session.subtitle %}
-              <div class="uk-text-small">
-                {{ session.subtitle | markdown(inline=true) | safe }}
-              </div>
-            {% endif %}
-            {% if session.presenters %}
-              <div class="uk-text-small">
-                Presenters: {{ session.presenters | markdown(inline=true) | safe }}
-              </div>
-            {% endif %}
-            {% if session.speaker %}
-              <div class="uk-text-small">
-                Speaker: {{ session.speaker | markdown(inline=true) | safe }}
-              </div>
+              {% if session.label %}<span class="schedule-tag">{{ session.label }}</span>{% endif %}
+              {% if session.paper_id %}<span class="schedule-paper-id">Paper ID {{ session.paper_id }}</span>{% endif %}
+              <span class="schedule-title">
+                {% if session.url %}
+                  <a href="{{ session.url }}" target="_blank" rel="noopener noreferrer">{{ session.title }}</a>
+                {% else %}
+                  {{ session.title }}
+                {% endif %}
+              </span>
+              {% if session.speaker %}
+                <div class="schedule-people">{{ session.speaker | markdown(inline=true) | safe }}</div>
+              {% endif %}
+              {% if session.authors %}
+                <div class="schedule-people">{{ session.authors | markdown(inline=true) | safe }}</div>
+              {% endif %}
+              {% if session.presentation %}
+                <div class="schedule-duration">{{ session.presentation }} presentation + {{ session.qa }} Q&amp;A</div>
+              {% endif %}
             {% endif %}
           </td>
         </tr>
       {% endfor %}
-    {% endfor %}
-  </tbody>
-</table>
+    </tbody>
+  </table>
+{% endfor %}

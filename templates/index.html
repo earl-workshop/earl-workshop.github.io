@@ -25,16 +25,10 @@
   <div class="home-panel uk-margin-large-bottom">
     <div class="home-panel-heading">
       <p class="eyebrow">THE 2026 EDITION</p>
-      <h2>Programme and updates</h2>
+      <h2>Schedule</h2>
     </div>
-      <div uk-grid class="uk-grid-small uk-flex-top">
-      <div class="uk-width-1-4@m home-news">
-        {% include "news.html" %}
-      </div>
-      <div class="uk-width-3-4@m home-schedule">
-        <h2>Schedule</h2>
-        {% include "schedule.html" %}
-      </div>
+    <div class="home-schedule" id="schedule">
+      {% include "schedule.html" %}
     </div>
   </div>
 {% endblock content %}
