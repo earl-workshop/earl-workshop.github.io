@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>EARL Workshop 2026</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;img/favicon-16x16.png">
+    <link rel="manifest" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;img/site.webmanifest">
+    <link rel="mask-icon" href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="EARL 2026, the 3rd Workshop on Evaluating and Applying Recommender Systems with Large Language Models, co-located with CIKM 2026 in Rome.">
+
+    <!-- uikit -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.19.2/dist/js/uikit-icons.min.js"></script>
+
+    <!-- time zone localization -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/dayjs.min.js" integrity="sha256-EfJOqCcshFS/2TxhArURu3Wn8b/XDA4fbPWKSwZ+1B8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.7/plugin/utc.js" integrity="sha256-qDfIIxqpRhYWa543p6AHZ323xT3B8O6iLZFUAWtEQJw=" crossorigin="anonymous"></script>
+
+    
+      <link rel="alternate" type="application/atom+xml" title="CodeRefinery" href="https://earl-workshop.github.io/atom.xml" />
+    
+
+    
+
+    <link href="https://earl-workshop.github.io/style.css" rel="stylesheet">
+
+    
+    <script defer data-domain="earl-workshop.github.io" src="https://plausible.cs.aalto.fi/js/script.js"></script>
+    
+
+
+  </head>
+
+  <body>
+    <div class="uk-container uk-margin-large-bottom">
+
+      <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+  <div class="uk-navbar-left">
+    
+    <a class="site-brand" href="https://earl-workshop.github.io" aria-label="EARL Workshop 2026 home">
+      <img src="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;processed_images&#x2F;EARL_logo.d53ce6b42a9b1595.png" alt="EARL Workshop logo">
+      <span class="site-year">2026</span>
+    </a>
+  </div>
+  <div class="uk-navbar-right">
+    <ul class="uk-navbar-nav uk-visible@s">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities">
+      Workshop Activities
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;call-for-papers">
+      Call for Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;accepted-papers">
+      Accepted Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;organizers">
+      Organizers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pc-members">
+      PC Members
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;contact">
+      Contact
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+    <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+  </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
+  <div class="uk-offcanvas-bar">
+    <ul class="uk-nav">
+      
+      
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io">
+      About
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities">
+      Workshop Activities
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;call-for-papers">
+      Call for Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;accepted-papers">
+      Accepted Papers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;organizers">
+      Organizers
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;pc-members">
+      PC Members
+      
+    </a>
+
+    
+
+  </li>
+
+  <li>
+
+    
+    
+      
+        
+      
+    
+
+    
+
+    <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;contact">
+      Contact
+      
+    </a>
+
+    
+
+  </li>
+
+
+    </ul>
+  </div>
+</div>
+
+
+      <div class="markdown">
+        
+  <div class="home-intro">
+    <p class="eyebrow">CIKM 2026 · ROME, ITALY</p>
+    <div class="hero-title-row">
+      <h1>EARL Workshop 2026</h1>
+      <a class="hero-signpost" href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">
+        <span>CO-LOCATED WITH</span>
+        <strong>CIKM 2026</strong>
+        <small>Rome, Italy</small>
+      </a>
+    </div>
+    
+<p class="intro-lede">EARL 2026 is the 3rd Workshop on Evaluating and Applying Recommender Systems with Large Language Models. Co-located with the 35th International ACM Conference on Knowledge and Information Management (CIKM 2026), the workshop brings together researchers and practitioners working at the intersection of large language models (LLMs) and recommender systems (RSs).</p>
+<p class="intro-lede">The workshop will be held in person in Rome, Italy. We will focus on the evaluation, reproducibility, practical deployment, and responsible integration of LLM-driven recommender systems, while welcoming exploratory work and critical discussion.</p>
+<div class="event-facts" uk-grid>
+  <div class="uk-width-1-2@s uk-width-1-4@m">
+    <div class="event-fact">
+      <span class="event-fact-label">Host conference</span>
+      <strong><a href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">CIKM 2026</a></strong>
+    </div>
+  </div>
+  <div class="uk-width-1-2@s uk-width-1-4@m">
+    <div class="event-fact">
+      <span class="event-fact-label">Location</span>
+      <strong>Rome, Italy</strong>
+    </div>
+  </div>
+  <div class="uk-width-1-2@s uk-width-1-4@m">
+    <div class="event-fact">
+      <span class="event-fact-label">Workshop date</span>
+      <strong>8 November 2026</strong>
+    </div>
+  </div>
+  <div class="uk-width-1-2@s uk-width-1-4@m">
+    <div class="event-fact">
+      <span class="event-fact-label">Format</span>
+      <strong>Half-day · In Person Only</strong>
+    </div>
+  </div>
+</div>
+
+
+    <div class="hero-visual">
+      <a href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">
+        <img src="https://earl-workshop.github.io/img/cikm2026_logo.png" alt="CIKM 2026 official conference logo">
+      </a>
+      <p>35th International ACM Conference on Knowledge and Information Management</p>
+    </div>
+  </div>
+
+  <div class="home-panel uk-margin-large-bottom">
+    <div class="home-panel-heading">
+      <p class="eyebrow">THE 2026 EDITION</p>
+      <h2>Schedule</h2>
+    </div>
+    <div class="home-schedule" id="schedule">
+      
+
+  <div class="schedule-day">
+    <h3>Sunday, 8 November 2026 · Rome, Italy</h3>
+    <p class="schedule-note">All times are local Rome time (CET, UTC+1).</p>
+  </div>
+  <table class="uk-table uk-table-small schedule-table">
+    <tbody>
+      
+        <tr class="schedule-admin">
+          <td class="schedule-time">09:00–09:10</td>
+          <td class="schedule-item">
+            
+              
+              
+              <span class="schedule-title">
+                
+                  Opening remarks &amp; Best Paper Award ceremony
+                
+              </span>
+              
+              
+                <div class="schedule-people">Guillaume Salha-Galvan and Sairamvinay Vijayaraghavan</div>
+              
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-invited">
+          <td class="schedule-time">09:10–09:40</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Invited talk</span>
+              
+              <span class="schedule-title">
+                
+                  <a href="https:&#x2F;&#x2F;earl-workshop.github.io&#x2F;activities&#x2F;#invited-talk">Gradient Vulnerability and Its Implications for LLM-Based Recommender Systems</a>
+                
+              </span>
+              
+                <div class="schedule-people">Bum Jun Kim (The University of Tokyo)</div>
+              
+              
+              
+                <div class="schedule-duration">25 min presentation + 5 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-long">
+          <td class="schedule-time">09:40–10:00</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Long talk</span>
+              <span class="schedule-paper-id">Paper ID 2</span>
+              <span class="schedule-title">
+                
+                  Beyond Posts: Recommending Conversations in Threads Feed
+                
+              </span>
+              
+              
+                <div class="schedule-people">Xiuyan Ni, Qing Feng, Eric He, Akhil Nadigatla, Adam Kozdrowicz, Emerson Wenzel, Runbo Jiang, Nicholas Joodi, Xiaoyu Cao, Zichao Li, Joy Qiu, Shuting Wang, Shujian Bu and Ivan Ji</div>
+              
+              
+                <div class="schedule-duration">15 min presentation + 5 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">10:00–10:10</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 3</span>
+              <span class="schedule-title">
+                
+                  From Raw IDs to Semantic Planning: How Recommender Systems Utilize Information at Scale
+                
+              </span>
+              
+              
+                <div class="schedule-people">Changhong Jin, Shiqiu Yang, Roger Zhe Li, Yingjie Niu, Aghiles Salah, Mete Sertkan, Zheng Ju, Xingsheng Guo, Huifeng Guo, Ruihai Dong and Barry Smyth</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">10:10–10:20</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 6</span>
+              <span class="schedule-title">
+                
+                  Encoded but Exposed: Language Embeddings can Reveal More Than They Should in Recommender Systems
+                
+              </span>
+              
+              
+                <div class="schedule-people">Linda Beková and Rodrigo Alves</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">10:20–10:30</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 13</span>
+              <span class="schedule-title">
+                
+                  When to Ask: A Framework for Interruption-Aware Conversational Recommendation
+                
+              </span>
+              
+              
+                <div class="schedule-people">Sanjana Arun</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">10:30–10:40</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 16</span>
+              <span class="schedule-title">
+                
+                  Validity Lag: Why LLM Recommender Evaluation Keeps Failing the Same Way
+                
+              </span>
+              
+              
+                <div class="schedule-people">Shiming Xie</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-break">
+          <td class="schedule-time">10:40–11:30</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-break-label">Coffee break</span>
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-long">
+          <td class="schedule-time">11:30–11:50</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Long talk</span>
+              <span class="schedule-paper-id">Paper ID 4</span>
+              <span class="schedule-title">
+                
+                  Dialogue Generation for Conversational Recommendation Using User Search Interactions and Knowledge Graphs
+                
+              </span>
+              
+              
+                <div class="schedule-people">Donggyu Yoon, Minsung Hwang, Kwanghee Jang, Gowoon Hwang and Joyce Jiyoung Whang</div>
+              
+              
+                <div class="schedule-duration">15 min presentation + 5 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-long">
+          <td class="schedule-time">11:50–12:10</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Long talk</span>
+              <span class="schedule-paper-id">Paper ID 12</span>
+              <span class="schedule-title">
+                
+                  Format Compliance without Detectable Preference Gain: A Paired Audit of Post-Trained LLM Recommenders
+                
+              </span>
+              
+              
+                <div class="schedule-people">Shiming Xie</div>
+              
+              
+                <div class="schedule-duration">15 min presentation + 5 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">12:10–12:20</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 15</span>
+              <span class="schedule-title">
+                
+                  Persona Aware Session-Based Recommendation with LLM-Enhanced Knowledge Graphs
+                
+              </span>
+              
+              
+                <div class="schedule-people">Muskan Gupta, Priyanka Gupta and Jyotsana Khatri</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">12:20–12:30</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 5</span>
+              <span class="schedule-title">
+                
+                  From a Large-Scale Teacher to Efficient Multimodal Students for Search Relevance Prediction
+                
+              </span>
+              
+              
+                <div class="schedule-people">Tomasz Gniazdowski, Mohammadreza Momenifar, Nadia Vase, Shahram Khadivi, Wiktor Walentynowicz, Nicola Ueffing, Jan Pawłowski, Piotr Szymański and Abraham Bagherjeiran</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">12:30–12:40</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 8</span>
+              <span class="schedule-title">
+                
+                  Preprocessing Choices in Fine-Tuning Data Matter: Utility and Demographic Sensitivity in LLM-Based Recommendation
+                
+              </span>
+              
+              
+                <div class="schedule-people">Furkan Yasir Goksu, Yaren Yilmaz and Şule Gündüz Öğüdücü</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-short">
+          <td class="schedule-time">12:40–12:50</td>
+          <td class="schedule-item">
+            
+              <span class="schedule-tag">Short talk</span>
+              <span class="schedule-paper-id">Paper ID 10</span>
+              <span class="schedule-title">
+                
+                  Revisiting Generative vs. Dense Retrieval: A Static Value Prior Reverses the Gap
+                
+              </span>
+              
+              
+                <div class="schedule-people">Renbo Tu, Yang Liu and Shuying Sun</div>
+              
+              
+                <div class="schedule-duration">8 min presentation + 2 min Q&amp;A</div>
+              
+            
+          </td>
+        </tr>
+      
+        <tr class="schedule-admin">
+          <td class="schedule-time">12:50–12:55</td>
+          <td class="schedule-item">
+            
+              
+              
+              <span class="schedule-title">
+                
+                  Closing remarks
+                
+              </span>
+              
+              
+                <div class="schedule-people">Guillaume Salha-Galvan and Sairamvinay Vijayaraghavan</div>
+              
+              
+            
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+
+    </div>
+  </div>
+
+      </div>
+
+      <div class="uk-margin-large-top">
+        <hr>
+        <div class="uk-child-width-expand@s" uk-grid>
+  <div>
+    <h4>EARL Workshop</h4>
+    <p>
+      The workshop will be held at <a href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">CIKM 2026</a> in Rome, Italy.
+    </p>
+    <a class="conference-logo" href="https://cikm2026.diag.uniroma1.it/" target="_blank" rel="noopener noreferrer">
+      <img alt="CIKM 2026 official conference logo" src="/img/cikm2026_logo.png" width="160" height="160">
+    </a>
+  </div>
+
+  <div>
+    <h4>SUPPORTERS</h4>
+      <a href="https://www.smartor.ai/" target="_blank" rel="noopener noreferrer">
+        <img alt="Smartor" src="/img/smartor_logo.png" width="180" height="50">
+      </a>
+      <p></p>
+
+      <a href="https://www.insight-centre.org/" target="_blank" rel="noopener noreferrer">
+        <img alt="Insight" src="/img/INSIGHT LOGO_colour.png" width="180" height="50">
+      </a>
+
+
+  </div>
+
+  <div>
+    <h4>CONTACT</h4>
+    <p>
+      <a href="mailto:gsalhagalvan@sjtu.edu.cn">gsalhagalvan@sjtu.edu.cn</a>
+    </p>
+  </div>
+  <div>
+    <h4>PREVIOUS WORKSHOPS</h4>
+    <p>
+        <a href="https://earl-workshop.github.io/earl2025">EARL 2025</a><br>
+        <a href="https://earl-workshop.github.io/earl2024">EARL 2024</a>
+    </p>
+  </div>
+</div>
+
+      </div>
+
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.add();
+  </script>
+</html>
