@@ -18,6 +18,8 @@
               <span class="schedule-title">
                 {% if session.url %}
                   <a href="{{ session.url }}" target="_blank" rel="noopener noreferrer">{{ session.title }}</a>
+                {% elif session.details %}
+                  <a href="{{ session.details }}">{{ session.title }}</a>
                 {% else %}
                   {{ session.title }}
                 {% endif %}
