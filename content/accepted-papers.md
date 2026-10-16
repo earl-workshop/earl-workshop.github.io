@@ -9,7 +9,7 @@ We are pleased to announce the papers accepted to EARL 2026. All accepted papers
 ### Long Talks
 
 - **Beyond Posts: Recommending Conversations in Threads Feed** — _Xiuyan Ni, Qing Feng, Eric He, Akhil Nadigatla, Adam Kozdrowicz, Emerson Wenzel, Runbo Jiang, Nicholas Joodi, Xiaoyu Cao, Zichao Li, Joy Qiu, Shuting Wang, Shujian Bu and Ivan Ji_ (09:40–10:00).
-- **Dialogue Generation for Conversational Recommendation Using User Search Interactions and Knowledge Graphs** — _Donggyu Yoon, Minsung Hwang, Kwanghee Jang, Gowoon Hwang and Joyce Jiyoung Whang_ (11:30–11:50).
+- **Dialogue Generation for Conversational Recommendation Using User Search Interactions and Knowledge Graphs** — _Minsung Hwang, Donggyu Yoon, Gowoon Hwang, Kwanghee Jang and Joyce Jiyoung Whang_ (11:30–11:50).
 - **Format Compliance without Detectable Preference Gain: A Paired Audit of Post-Trained LLM Recommenders** — _Shiming Xie_ (11:50–12:10).
 
 ### Short Talks

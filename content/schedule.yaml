@@ -77,7 +77,7 @@ schedule:
         qa: "5 min"
         label: "Long talk"
         title: "Dialogue Generation for Conversational Recommendation Using User Search Interactions and Knowledge Graphs"
-        authors: "Donggyu Yoon, Minsung Hwang, Kwanghee Jang, Gowoon Hwang and Joyce Jiyoung Whang"
+        authors: "Minsung Hwang, Donggyu Yoon, Gowoon Hwang, Kwanghee Jang and Joyce Jiyoung Whang"
       - starts: "11:50"
         ends: "12:10"
         kind: "long"
