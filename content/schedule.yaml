@@ -28,7 +28,7 @@ schedule:
         qa: "5 min"
         label: "Long talk"
         title: "Beyond Posts: Recommending Conversations in Threads Feed"
-        authors: "Xiuyan Ni, Qing Feng, Eric He, Akhil Nadigatla, Adam Kozdrowicz, Emerson Wenzel, Runbo Jiang, Nicholas Joodi, Xiaoyu Cao, Zichao Li, Joy Qiu, Shuting Wang, Shujian Bu and Ivan Ji"
+        authors: "Xiuyan Ni, Qing Feng, Eric He, Akhil Nadigatla, Adam Kozdrowicz, Emerson Wenzel, Runbo Jiang, Nicholas Joodi, Xiaoyu Cao, Zichao Li, Joy Qiu, Namrita Perincherry, Jiangxue Xu, Jiaxin Ying, Feifei Yu, Anthony D’Souza, Shuting Wang, Ivan Ji and Shujian Bu"
       - starts: "10:00"
         ends: "10:10"
         kind: "short"
