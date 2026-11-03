@@ -4,6 +4,21 @@ title = "PC Members"
 
 ## Program Committee
 
-EARL 2026 will continue to benefit from a high-quality Program Committee with expertise in recommender systems and LLMs. A majority of the EARL 2025 reviewers have already agreed to participate again, and additional reviewers will be invited.
+We sincerely thank the members of the EARL 2026 Program Committee for their careful and constructive reviews:
 
-The final Program Committee composition will be announced in the coming weeks.
+- Arpita Agrawal
+- Humayun Akhtar
+- Ruihai Dong
+- Aakanksha Joshi
+- Irene Li
+- Lei Li
+- Dairui Liu
+- Haotian Liu
+- Jinghui Lu
+- Sixun Ouyang
+- Christos Petridis
+- Guillaume Salha-Galvan
+- Raghav Sharma
+- Sairamvinay Vijayaraghavan
+- Yudi Xiong
+- Haoyu Zhang
