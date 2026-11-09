@@ -7,7 +7,7 @@
   <table class="uk-table uk-table-small schedule-table">
     <tbody>
       {% for session in day.sessions %}
-        <tr class="schedule-{{ session.kind | default(value="admin") }}">
+        <tr class="schedule-{{ session.kind | default(value="admin") }}{% if session.withdrawn %} schedule-withdrawn{% endif %}">
           <td class="schedule-time">{{ session.starts }}–{{ session.ends }}</td>
           <td class="schedule-item">
             {% if session.kind == "break" %}
